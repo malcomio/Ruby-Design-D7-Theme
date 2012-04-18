@@ -55,6 +55,11 @@ $sanserif : Arial,sans-serif;
   top: 0;
 }
 
+@mixin circle {
+  @include transparent-sprite(circlearrow);
+    height: 24px;
+    width: 24px;  
+  }
 
 @mixin linkred {
   background: $red;

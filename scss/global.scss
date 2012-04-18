@@ -210,13 +210,14 @@ a, a:link, a:visited {
     color: #000;
     font-size: 1.6em;
     line-height: 250%;
-    /*  background: transparent url('../images/circlearrow.png') right no-repeat;*/
     padding: 5px 30px 5px 0;
     margin-left: 15px;
+    display: block;
   }
   .views-field-title a:after {
-    @include linkafter;
-    background-position: 0px 0px;
+    @include circle;
+    content: " ";
+    display: inline-block;
     top: 14px;
     margin-left: 10px;
   }
@@ -240,11 +241,11 @@ a, a:link, a:visited {
   z-index: 99;
 }
 .views-slideshow-controls-text-previous {
-  background: url(../images/prev.png) no-repeat;
+  @include transparent-sprite(prev);
   left: 5px;
 }
 .views-slideshow-controls-text-next {
-  background: url(../images/next.png) no-repeat;
+  @include transparent-sprite(next);
   right: 5px;
 }
 .views-slideshow-controls-text-pause {
