@@ -1,0 +1,84 @@
+@import 'compass';
+@import "compass/utilities/sprites";
+
+@import "transparent/*.png";
+@include all-transparent-sprites;
+
+/* colours */
+$light_grey : #666;
+$dark_grey : #232323;
+$red : #BF0C2C;
+$pale_grey : #E5E5E5;
+
+/* fonts */
+$serif : Georgia, serif;
+$sanserif : Arial,sans-serif;
+
+@mixin leftside {
+  width: 300px;
+  float: left;
+  background: #000;
+  color: #fff;
+  margin-left: 0;
+  padding-left: 10px;
+  padding: 20px; 
+  position: relative;
+}
+
+@mixin white20pt {
+  font-family: $sanserif;
+  font-size: 1.6em;
+  line-height: 140%;
+}
+
+@mixin largeWhiteSerif {
+  font-family: $serif;
+  background: none;
+  display: block;
+  top: 20px;
+  font-size: 1.42em;
+  font-family: $serif;
+  font-weight: 700;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+@mixin linkafter {
+  @include transparent-sprite(view-link);
+  background-position: 0px -307px;
+  content: ' ';
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+@mixin linkred {
+  background: $red;
+  display: block;
+  padding: 5px;
+  font-family: $sanserif;
+  font-size: 1em;
+  font-weight: 600;
+  height: 27px;
+  position: absolute;
+  color: #FFF;
+  text-transform: uppercase;  
+}
+
+
+@mixin taxonomyTerms {
+  background-color: desaturate($red, 20%);
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  display: block;
+  width: 150px;
+  height: 34px;
+  margin: 0 0 10px;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-weight: bold;
+}

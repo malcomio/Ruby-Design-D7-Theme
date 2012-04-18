@@ -1,0 +1,68 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+@import "base";
+
+@mixin rightside {
+  float: left;
+  width: 660px;
+}
+
+h1 span {
+  display: block;
+  padding-top: 20px;
+}
+
+.section-header .zone-header.container-12 .grid-12 {
+  width: 960px;
+}
+
+.block-single-case-study-block,
+.view-case-studies .right {
+  @include rightside;
+}
+
+.block-views-node-images-block-1,
+.block-views-node-images-block {
+  @include rightside;
+}
+
+.right img {
+  width: auto;
+  height: auto;
+}
+
+#region-content .grid-half {
+  margin-left: 0;
+  margin-right: 20px;
+  width: 290px;
+  float: left;
+}
+
+.left,.block-single-case-study-block-1,.block-views-testimonials-block,
+.view-case-studies {
+  height: 378px;
+}
+
+.view-single-case-study .views-field-field-url a, 
+.view-case-studies .views-field-field-url a, 
+.views-field-view-node a {
+  width: 150px;
+  left: 20px;
+}
+.views-field-view-node a {
+  bottom: 60px;
+  left: 20px;
+}
+
+.views-field-field-preview {
+  margin: 30px 0;  
+}
+
+.block-main-menu ul li {
+  float: left;
+}
+
+.block-views-portfolio-block {
+  .views-row {
+    width: 320px;
+  }
+}

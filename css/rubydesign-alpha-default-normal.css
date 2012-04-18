@@ -1,0 +1,156 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* line 154, transparent/*.png */
+.transparent-sprite, .transparent-circlearrow, .transparent-drupal, .transparent-email, .transparent-email24, .transparent-free, .transparent-linkedin, .transparent-logo_twitter, .transparent-next, .transparent-prev, .transparent-quote-after, .transparent-quote-before, .transparent-ruby, .transparent-twitter-2, .transparent-view-link, .transparent-wordpress {
+  background: url('../images/transparent-s9dd2df37cd.png') no-repeat;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-circlearrow {
+  background-position: 0 -350px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-drupal {
+  background-position: 0 -201px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-email {
+  background-position: 0 -336px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-email24 {
+  background-position: 0 -318px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-free {
+  background-position: 0 -48px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-linkedin {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-logo_twitter {
+  background-position: 0 -173px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-next {
+  background-position: 0 -374px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-prev {
+  background-position: 0 -425px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-quote-after {
+  background-position: 0 -272px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-quote-before {
+  background-position: 0 -295px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-ruby {
+  background-position: 0 -225px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-twitter-2 {
+  background-position: 0 -24px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-view-link {
+  background-position: 0 -398px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-wordpress {
+  background-position: 0 -149px;
+}
+
+/* colours */
+/* fonts */
+/* line 9, ../scss/rubydesign-alpha-default-normal.scss */
+h1 span {
+  display: block;
+  padding-top: 20px;
+}
+
+/* line 14, ../scss/rubydesign-alpha-default-normal.scss */
+.section-header .zone-header.container-12 .grid-12 {
+  width: 960px;
+}
+
+/* line 19, ../scss/rubydesign-alpha-default-normal.scss */
+.block-single-case-study-block,
+.view-case-studies .right {
+  float: left;
+  width: 660px;
+}
+
+/* line 24, ../scss/rubydesign-alpha-default-normal.scss */
+.block-views-node-images-block-1,
+.block-views-node-images-block {
+  float: left;
+  width: 660px;
+}
+
+/* line 28, ../scss/rubydesign-alpha-default-normal.scss */
+.right img {
+  width: auto;
+  height: auto;
+}
+
+/* line 33, ../scss/rubydesign-alpha-default-normal.scss */
+#region-content .grid-half {
+  margin-left: 0;
+  margin-right: 20px;
+  width: 290px;
+  float: left;
+}
+
+/* line 41, ../scss/rubydesign-alpha-default-normal.scss */
+.left, .block-single-case-study-block-1, .block-views-testimonials-block,
+.view-case-studies {
+  height: 378px;
+}
+
+/* line 47, ../scss/rubydesign-alpha-default-normal.scss */
+.view-single-case-study .views-field-field-url a,
+.view-case-studies .views-field-field-url a,
+.views-field-view-node a {
+  width: 150px;
+  left: 20px;
+}
+
+/* line 51, ../scss/rubydesign-alpha-default-normal.scss */
+.views-field-view-node a {
+  bottom: 60px;
+  left: 20px;
+}
+
+/* line 56, ../scss/rubydesign-alpha-default-normal.scss */
+.views-field-field-preview {
+  margin: 30px 0;
+}
+
+/* line 60, ../scss/rubydesign-alpha-default-normal.scss */
+.block-main-menu ul li {
+  float: left;
+}
+
+/* line 65, ../scss/rubydesign-alpha-default-normal.scss */
+.block-views-portfolio-block .views-row {
+  width: 320px;
+}

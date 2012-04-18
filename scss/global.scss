@@ -1,0 +1,377 @@
+@import "base";
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  background: $pale_grey;
+  font-family: $sanserif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $red;
+  font-family: $sanserif;
+}
+
+h1 {
+  line-height: 100%;
+  font-weight: 400;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+#zone-header-wrapper {
+  background: $light_grey;
+}
+#zone-branding {
+  background: #FFF;
+}
+#zone-header {
+  background: $dark_grey;
+}
+
+.zone-content {
+  background: #FFF;
+  
+  a {
+    color: $red;
+  }
+}
+
+.divider {
+  background: url(../images/dividerstripe.png) no-repeat;
+  height: 40px;
+}
+#region-sidebar-first, #region-header-first {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.region-sidebar-first {
+  padding: 10px 20px 10px;
+  
+  h2, h3, .status_date {
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    display: inline;
+  }
+  .status_date {
+    font-size: 80%;
+    display: inline;
+  }
+}
+
+.node-page {
+  background: #FFF;
+}
+
+.branding-data {
+  margin-top: 20px;
+  float: left;
+}
+
+.free-web-check {
+  @include transparent-sprite(free);
+  display: block;
+  float: left;
+  text-indent: -9999px;
+  margin-right: 15px;
+}
+
+/* menus */
+.block-main-menu {
+  float: right;
+}
+
+.block-main-menu ul li, #block-menu-menu-secondary-navigation ul li {
+  list-style: none;
+  margin-left: 1.5em;
+  float: left;
+}
+
+.block-main-menu ul li a {
+  color: #000;
+  text-transform: uppercase;
+  font: 1.45em $sanserif;
+}
+
+.block-main-menu ul li.active-trail a {
+  color: $red;
+}
+#block-menu-menu-secondary-navigation {
+  float: right;
+}
+#block-menu-menu-secondary-navigation a {
+  color: #000;
+}
+
+.block-views-testimonials-block {
+  @include leftside;
+}
+
+/* home page slideshow */
+.view-case-studies {
+  position: relative;
+  
+}
+
+.left {
+  position: absolute;
+  height: 209px;
+  width: 380px;
+}
+
+.view-single-case-study .views-field-title a, 
+.view-case-studies .views-field-title a{
+  background: $red;
+  display: block;
+  padding: 5px 10px;
+  font-family: $sanserif;
+  font-size: 1em;
+  font-weight: 600;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  /*  width: 100px;*/
+}
+.views-field-field-preview,
+.view-single-case-study .views-field-field-url a, 
+.view-case-studies .views-field-field-url a, 
+.views-field-view-node a {
+  display: none;
+}
+
+.right img {
+  width: 360px;
+  height: 209px;
+}
+
+
+
+.view-single-case-study .views-field-title a.tabledrag-handle,
+.view-single-case-study .draggable .views-field-title .draggable a.tabledrag-handle,
+.view-case-studies .views-field-title a.tabledrag-handle,
+.view-case-studies .draggable .views-field-title .draggable a.tabledrag-handle {
+  position: static;
+}
+
+
+
+.view-single-case-study  .views-slideshow-pager-field-item,
+.view-case-studies .views-slideshow-pager-field-item {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid $red;
+  float: left;
+  margin-left: 10px;
+}
+
+.view-case-studies .views-slideshow-pager-field-item.active {
+  background: $red;
+}
+
+.views-slideshow-controls-bottom {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+}
+
+/* portfolio slideshow */
+.block-views-portfolio-block {
+  display: none;
+}
+.view-portfolio {
+  position: relative;
+  .views-row {
+    min-width: 380px;
+  }
+  
+  .views-field-title {
+    width: 100%;
+    background: $pale_grey;
+    position: relative;
+  }
+  .views-field-title a {
+    color: #000;
+    font-size: 1.6em;
+    line-height: 250%;
+    /*  background: transparent url('../images/circlearrow.png') right no-repeat;*/
+    padding: 5px 30px 5px 0;
+    margin-left: 15px;
+  }
+  .views-field-title a:after {
+    @include linkafter;
+    background-position: 0px 0px;
+    top: 14px;
+    margin-left: 10px;
+  }
+  .views-field-field-image-portfolio {
+    margin: 10px 0 10px 15px;
+  }
+  
+  
+  #views-form-portfolio-attachment-1 a:after {
+    background: none;
+  }
+}
+.views-slideshow-controls-text-previous, 
+.views-slideshow-controls-text-next {
+  display: block;
+  width: 13px;
+  height: 24px;
+  text-indent: -9999px;
+  position: absolute;
+  top: 83px;
+  z-index: 99;
+}
+.views-slideshow-controls-text-previous {
+  background: url(../images/prev.png) no-repeat;
+  left: 5px;
+}
+.views-slideshow-controls-text-next {
+  background: url(../images/next.png) no-repeat;
+  right: 5px;
+}
+.views-slideshow-controls-text-pause {
+  display: none;
+}
+.page-node-7 {
+  #zone-header {
+    background: #FFF;
+  }
+  
+  .zone-content .region-content {
+/*    margin: 20px 0;*/
+    padding: 20px 20px 0;
+    width: 100%;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+    
+    span {
+      padding-top: 0;
+      }
+    
+    .design {
+      color: #000;
+      
+    }
+  }
+  
+}
+/* testimonials */
+.view-testimonials .views-field-body:before,
+.view-testimonials .views-field-body:after {
+  content: ' ';
+  display: inline-block;
+  width: 48px;
+  height: 23px;
+}
+.view-testimonials .views-field-body:before {
+  @include transparent-sprite(quote-before);
+}
+.view-testimonials .views-field-body:after {
+  @include transparent-sprite(quote-after);
+}
+.view-testimonials .views-field-body .field-content  {
+  display: inline;
+  @include white20pt;
+}
+
+
+
+
+.zone-postscript-wrapper {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  margin-right: 0;
+}
+/* mobile menu */
+.mnav {
+  width: 100%;
+}
+
+/* twitter */
+.block-block-1 {
+  display: none;
+}
+
+/* contact details */
+.block-block-4 {
+  float: right;
+  margin-top: 30px;
+  
+  a {
+    color: $red;
+  }
+  .phone {
+    display: block;
+/*    background: url('../images/phone.png') no-repeat;  */
+    text-align: right;
+  }
+  
+  .email {
+/*    background: url('../images/email.png') no-repeat;  */
+    margin-top: 4px;
+  }
+  .social {
+    text-indent: -9999px;
+    display: block;
+    margin-bottom: 20px;    
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+  }
+  .twitter {
+    @include transparent-sprite(twitter-2);
+    float: right;
+  }
+  .linkedin {
+    @include transparent-sprite(linkedin);
+    float: right;
+  }
+}
+
+/* case study tags */
+
+.view-node-tags .views-field-name {
+  @include taxonomyTerms;
+
+  a {
+    color: $dark_grey;
+    padding: 3px 5px 5px 30px;
+    height: 24px;
+    display: block;
+  }
+    .Drupal {
+      @include transparent-sprite(drupal);
+    }
+    .Wordpress {
+      @include transparent-sprite(wordpress);
+    }
+    .Email-Marketing {
+      @include transparent-sprite(email24);
+    }
+    .Print  {
+      @include transparent-sprite(print);
+    }
+}
