@@ -1,29 +1,29 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
-/* line 162, transparent/*.png */
-.transparent-sprite, .transparent-circlearrow, .transparent-drupal, .transparent-email, .transparent-email24, .transparent-free, .transparent-linkedin, .transparent-logo_twitter, .transparent-next, .transparent-prev, .transparent-print, .transparent-quote-after, .transparent-quote-before, .transparent-ruby, .transparent-twitter-2, .transparent-view-link, .transparent-wordpress, .view-single-case-study .views-field-field-url a:after,
+/* line 170, transparent/*.png */
+.transparent-sprite, .transparent-circlearrow, .transparent-drupal, .transparent-email, .transparent-email24, .transparent-free, .transparent-linkedin, .transparent-logo_twitter, .transparent-next, .transparent-prev, .transparent-print, .transparent-quote-after, .transparent-quote-before, .transparent-ruby, .transparent-twitter-2, .transparent-view-link, .transparent-web, .transparent-wordpress, .view-single-case-study .views-field-field-url a:after,
 .view-case-studies .views-field-field-url a:after,
 .views-field-view-node a:after, div.tweets-pulled-listing a.twitter, .view-service-portfolio .views-field-title a:after {
-  background: url('../images/transparent-sf6b4cb912f.png') no-repeat;
+  background: url('../images/transparent-s9cb7d4eeea.png') no-repeat;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-circlearrow {
-  background-position: 0 -350px;
+  background-position: 0 -380px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-drupal {
-  background-position: 0 -201px;
+  background-position: 0 -225px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-email {
-  background-position: 0 -336px;
+  background-position: 0 -366px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-email24 {
-  background-position: 0 -318px;
+  background-position: 0 -342px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -38,37 +38,37 @@
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-logo_twitter {
-  background-position: 0 -173px;
+  background-position: 0 -197px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-next {
-  background-position: 0 -374px;
+  background-position: 0 -404px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-prev {
-  background-position: 0 -425px;
+  background-position: 0 -455px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-print {
-  background-position: 0 -449px;
+  background-position: 0 -479px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-quote-after {
-  background-position: 0 -272px;
+  background-position: 0 -296px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-quote-before {
-  background-position: 0 -295px;
+  background-position: 0 -319px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-ruby {
-  background-position: 0 -225px;
+  background-position: 0 -249px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -78,12 +78,17 @@
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-view-link {
-  background-position: 0 -398px;
+  background-position: 0 -428px;
+}
+
+/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-web {
+  background-position: 0 -149px;
 }
 
 /* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-wordpress {
-  background-position: 0 -149px;
+  background-position: 0 -173px;
 }
 
 /* colours */
@@ -202,7 +207,7 @@ h1 span {
 .view-single-case-study .views-field-field-url a:after,
 .view-case-studies .views-field-field-url a:after,
 .views-field-view-node a:after {
-  background-position: 0 -398px;
+  background-position: 0 -428px;
   content: ' ';
   width: 27px;
   height: 27px;
@@ -232,7 +237,7 @@ div.tweets-pulled-listing a {
 
 /* line 92, ../scss/rubydesign-alpha-default-narrow.scss */
 div.tweets-pulled-listing a.twitter {
-  background-position: 0 -173px;
+  background-position: 0 -197px;
   width: 150px;
   height: 28px;
   text-indent: -9999px;
@@ -341,10 +346,10 @@ div.tweets-pulled-listing a.twitter {
 }
 /* line 184, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio .views-row-even {
-  background: #e5e5e5;
+  /*    background: $pale_grey;*/
 }
 /* line 187, ../scss/rubydesign-alpha-default-narrow.scss */
-.view-service-portfolio .views-field-field-image {
+.view-service-portfolio .views-field-field-image-portfolio {
   margin: 0 20px 20px;
 }
 /* line 191, ../scss/rubydesign-alpha-default-narrow.scss */
@@ -368,7 +373,7 @@ div.tweets-pulled-listing a.twitter {
 }
 /* line 199, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio .views-field-title a:after {
-  background-position: 0 -398px;
+  background-position: 0 -428px;
   content: ' ';
   width: 27px;
   height: 27px;
@@ -379,5 +384,5 @@ div.tweets-pulled-listing a.twitter {
 }
 /* line 202, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio .views-field-body {
-  width: 600px;
+  width: 550px;
 }

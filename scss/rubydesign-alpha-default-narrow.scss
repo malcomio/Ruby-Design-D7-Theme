@@ -182,9 +182,9 @@ div.tweets-pulled-listing a.twitter {
     padding: 20px;
   }
   .views-row-even {
-    background: $pale_grey;
+/*    background: $pale_grey;*/
   }
-  .views-field-field-image {
+  .views-field-field-image-portfolio {
     margin: 0 20px 20px;
   }
   
@@ -200,6 +200,6 @@ div.tweets-pulled-listing a.twitter {
     @include linkafter;
   }
   .views-field-body { 
-    width:600px;
+    width:550px;
   }
 }

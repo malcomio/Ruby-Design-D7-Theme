@@ -356,7 +356,6 @@ a, a:link, a:visited {
 }
 
 /* case study tags */
-
 .view-node-tags .views-field-name {
   @include taxonomyTerms;
 
@@ -378,4 +377,12 @@ a, a:link, a:visited {
     .Print  {
       @include transparent-sprite(print);
     }
+    .Web {
+      @include transparent-sprite(web);  
+    }
+}
+
+/* modal form */
+div.modal-forms-modal-content .modal-title {
+  color: $red;
 }
