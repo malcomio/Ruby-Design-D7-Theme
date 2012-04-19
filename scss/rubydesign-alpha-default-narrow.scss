@@ -1,8 +1,12 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
 @import "base";
 
-h1 span {
+h1 {
   font-size: 2.9em;
+}
+
+h1 span {
+  padding-top: 32px;
   line-height: inherit;
   margin-bottom: 40px;
 }

@@ -17,4 +17,6 @@
       <div class="divider"></div>
       <?php endif;?>
   </div>
-<?php if ($wrapper): ?></div><?php endif; ?>
+<?php if ($wrapper): ?>
+</div>
+  <?php endif; ?>
