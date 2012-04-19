@@ -89,10 +89,10 @@
 /* colours */
 /* fonts */
 /* line 4, ../scss/rubydesign-alpha-default-narrow.scss */
-h1 {
+h1 span {
   font-size: 2.9em;
   line-height: inherit;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /* line 10, ../scss/rubydesign-alpha-default-narrow.scss */
@@ -198,7 +198,6 @@ h1 {
 .view-case-studies .views-field-field-url a:after,
 .views-field-view-node a:after {
   background-position: 0 -398px;
-  background-position: 0px -307px;
   content: ' ';
   width: 27px;
   height: 27px;
@@ -365,7 +364,6 @@ div.tweets-pulled-listing a.twitter {
 /* line 195, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio .views-field-title a:after {
   background-position: 0 -398px;
-  background-position: 0px -307px;
   content: ' ';
   width: 27px;
   height: 27px;

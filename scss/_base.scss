@@ -45,7 +45,6 @@ $sanserif : Arial,sans-serif;
 
 @mixin linkafter {
   @include transparent-sprite(view-link);
-  background-position: 0px -307px;
   content: ' ';
   width: 27px;
   height: 27px;
@@ -77,8 +76,6 @@ $sanserif : Arial,sans-serif;
 
 @mixin taxonomyTerms {
   background-color: desaturate($red, 20%);
-  background-repeat: no-repeat;
-  background-position: 5% 50%;
   display: block;
   width: 150px;
   height: 34px;

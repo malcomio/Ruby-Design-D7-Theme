@@ -196,47 +196,49 @@ a, a:link, a:visited {
 .free-web-check {
   background-position: 0 -48px;
   display: block;
+  width: 99px;
+  height: 101px;
   float: left;
   text-indent: -9999px;
   margin-right: 15px;
 }
 
 /* menus */
-/* line 94, ../scss/global.scss */
+/* line 96, ../scss/global.scss */
 .block-main-menu {
   float: right;
 }
 
-/* line 98, ../scss/global.scss */
+/* line 100, ../scss/global.scss */
 .block-main-menu ul li, #block-menu-menu-secondary-navigation ul li {
   list-style: none;
   margin-left: 1.5em;
   float: left;
 }
 
-/* line 104, ../scss/global.scss */
+/* line 106, ../scss/global.scss */
 .block-main-menu ul li a {
   color: #000;
   text-transform: uppercase;
   font: 1.45em Arial, sans-serif;
 }
 
-/* line 110, ../scss/global.scss */
+/* line 112, ../scss/global.scss */
 .block-main-menu ul li.active-trail a {
   color: #bf0c2c;
 }
 
-/* line 113, ../scss/global.scss */
+/* line 115, ../scss/global.scss */
 #block-menu-menu-secondary-navigation {
   float: right;
 }
 
-/* line 116, ../scss/global.scss */
+/* line 118, ../scss/global.scss */
 #block-menu-menu-secondary-navigation a {
   color: #000;
 }
 
-/* line 120, ../scss/global.scss */
+/* line 122, ../scss/global.scss */
 .block-views-testimonials-block {
   width: 300px;
   float: left;
@@ -249,19 +251,19 @@ a, a:link, a:visited {
 }
 
 /* home page slideshow */
-/* line 125, ../scss/global.scss */
+/* line 127, ../scss/global.scss */
 .view-case-studies {
   position: relative;
 }
 
-/* line 130, ../scss/global.scss */
+/* line 132, ../scss/global.scss */
 .left {
   position: absolute;
   height: 209px;
   width: 380px;
 }
 
-/* line 137, ../scss/global.scss */
+/* line 139, ../scss/global.scss */
 .view-single-case-study .views-field-title a,
 .view-case-studies .views-field-title a {
   background: #bf0c2c;
@@ -276,7 +278,7 @@ a, a:link, a:visited {
   /*  width: 100px;*/
 }
 
-/* line 152, ../scss/global.scss */
+/* line 154, ../scss/global.scss */
 .views-field-field-preview,
 .view-single-case-study .views-field-field-url a,
 .view-case-studies .views-field-field-url a,
@@ -284,13 +286,13 @@ a, a:link, a:visited {
   display: none;
 }
 
-/* line 156, ../scss/global.scss */
+/* line 158, ../scss/global.scss */
 .right img {
   width: 360px;
   height: 209px;
 }
 
-/* line 166, ../scss/global.scss */
+/* line 168, ../scss/global.scss */
 .view-single-case-study .views-field-title a.tabledrag-handle,
 .view-single-case-study .draggable .views-field-title .draggable a.tabledrag-handle,
 .view-case-studies .views-field-title a.tabledrag-handle,
@@ -298,7 +300,7 @@ a, a:link, a:visited {
   position: static;
 }
 
-/* line 173, ../scss/global.scss */
+/* line 175, ../scss/global.scss */
 .view-single-case-study .views-slideshow-pager-field-item,
 .view-case-studies .views-slideshow-pager-field-item {
   display: block;
@@ -310,12 +312,12 @@ a, a:link, a:visited {
   margin-left: 10px;
 }
 
-/* line 183, ../scss/global.scss */
+/* line 185, ../scss/global.scss */
 .view-case-studies .views-slideshow-pager-field-item.active {
   background: #bf0c2c;
 }
 
-/* line 187, ../scss/global.scss */
+/* line 189, ../scss/global.scss */
 .views-slideshow-controls-bottom {
   position: absolute;
   right: 20px;
@@ -324,54 +326,55 @@ a, a:link, a:visited {
 }
 
 /* portfolio slideshow */
-/* line 195, ../scss/global.scss */
+/* line 197, ../scss/global.scss */
 .block-views-portfolio-block {
   display: none;
 }
 
-/* line 198, ../scss/global.scss */
+/* line 200, ../scss/global.scss */
 .view-portfolio {
   position: relative;
 }
-/* line 200, ../scss/global.scss */
+/* line 202, ../scss/global.scss */
 .view-portfolio .views-row {
   min-width: 380px;
 }
-/* line 204, ../scss/global.scss */
+/* line 206, ../scss/global.scss */
 .view-portfolio .views-field-title {
   width: 100%;
   background: #e5e5e5;
   position: relative;
 }
-/* line 209, ../scss/global.scss */
+/* line 211, ../scss/global.scss */
 .view-portfolio .views-field-title a {
   color: #000;
   font-size: 1.6em;
   line-height: 250%;
-  padding: 5px 30px 5px 0;
+  padding: 5px 0;
   margin-left: 15px;
   display: block;
 }
-/* line 217, ../scss/global.scss */
+/* line 219, ../scss/global.scss */
 .view-portfolio .views-field-title a:after {
   background-position: 0 -350px;
   height: 24px;
   width: 24px;
   content: " ";
   display: inline-block;
+  position: absolute;
   top: 14px;
   margin-left: 10px;
 }
-/* line 224, ../scss/global.scss */
+/* line 227, ../scss/global.scss */
 .view-portfolio .views-field-field-image-portfolio {
   margin: 10px 0 10px 15px;
 }
-/* line 229, ../scss/global.scss */
+/* line 232, ../scss/global.scss */
 .view-portfolio #views-form-portfolio-attachment-1 a:after {
   background: none;
 }
 
-/* line 234, ../scss/global.scss */
+/* line 237, ../scss/global.scss */
 .views-slideshow-controls-text-previous,
 .views-slideshow-controls-text-next {
   display: block;
@@ -383,49 +386,49 @@ a, a:link, a:visited {
   z-index: 99;
 }
 
-/* line 243, ../scss/global.scss */
+/* line 246, ../scss/global.scss */
 .views-slideshow-controls-text-previous {
   background-position: 0 -425px;
   left: 5px;
 }
 
-/* line 247, ../scss/global.scss */
+/* line 250, ../scss/global.scss */
 .views-slideshow-controls-text-next {
   background-position: 0 -374px;
   right: 5px;
 }
 
-/* line 251, ../scss/global.scss */
+/* line 254, ../scss/global.scss */
 .views-slideshow-controls-text-pause {
   display: none;
 }
 
-/* line 255, ../scss/global.scss */
+/* line 258, ../scss/global.scss */
 .page-node-7 #zone-header {
   background: #FFF;
 }
-/* line 259, ../scss/global.scss */
+/* line 262, ../scss/global.scss */
 .page-node-7 .zone-content .region-content {
   /*    margin: 20px 0;*/
   padding: 20px 20px 0;
   width: 100%;
 }
-/* line 265, ../scss/global.scss */
+/* line 268, ../scss/global.scss */
 .page-node-7 h1 {
   margin: 0;
   padding: 0;
 }
-/* line 269, ../scss/global.scss */
+/* line 272, ../scss/global.scss */
 .page-node-7 h1 span {
   padding-top: 0;
 }
-/* line 273, ../scss/global.scss */
+/* line 276, ../scss/global.scss */
 .page-node-7 h1 .design {
   color: #000;
 }
 
 /* testimonials */
-/* line 282, ../scss/global.scss */
+/* line 285, ../scss/global.scss */
 .view-testimonials .views-field-body:before,
 .view-testimonials .views-field-body:after {
   content: ' ';
@@ -434,17 +437,17 @@ a, a:link, a:visited {
   height: 23px;
 }
 
-/* line 288, ../scss/global.scss */
+/* line 291, ../scss/global.scss */
 .view-testimonials .views-field-body:before {
   background-position: 0 -295px;
 }
 
-/* line 291, ../scss/global.scss */
+/* line 294, ../scss/global.scss */
 .view-testimonials .views-field-body:after {
   background-position: 0 -272px;
 }
 
-/* line 294, ../scss/global.scss */
+/* line 297, ../scss/global.scss */
 .view-testimonials .views-field-body .field-content {
   display: inline;
   font-family: Arial, sans-serif;
@@ -452,50 +455,50 @@ a, a:link, a:visited {
   line-height: 140%;
 }
 
-/* line 302, ../scss/global.scss */
+/* line 305, ../scss/global.scss */
 .zone-postscript-wrapper {
   margin-bottom: 20px;
 }
 
-/* line 306, ../scss/global.scss */
+/* line 309, ../scss/global.scss */
 .logo img {
   margin-right: 0;
 }
 
 /* mobile menu */
-/* line 310, ../scss/global.scss */
+/* line 313, ../scss/global.scss */
 .mnav {
   width: 100%;
 }
 
 /* twitter */
-/* line 315, ../scss/global.scss */
+/* line 318, ../scss/global.scss */
 .block-block-1 {
   display: none;
 }
 
 /* contact details */
-/* line 320, ../scss/global.scss */
+/* line 323, ../scss/global.scss */
 .block-block-4 {
   float: right;
   margin-top: 30px;
 }
-/* line 324, ../scss/global.scss */
+/* line 327, ../scss/global.scss */
 .block-block-4 a {
   color: #bf0c2c;
 }
-/* line 327, ../scss/global.scss */
+/* line 330, ../scss/global.scss */
 .block-block-4 .phone {
   display: block;
   /*    background: url('../images/phone.png') no-repeat;  */
   text-align: right;
 }
-/* line 333, ../scss/global.scss */
+/* line 336, ../scss/global.scss */
 .block-block-4 .email {
   /*    background: url('../images/email.png') no-repeat;  */
   margin-top: 4px;
 }
-/* line 337, ../scss/global.scss */
+/* line 340, ../scss/global.scss */
 .block-block-4 .social {
   text-indent: -9999px;
   display: block;
@@ -504,23 +507,21 @@ a, a:link, a:visited {
   height: 24px;
   margin-left: 4px;
 }
-/* line 345, ../scss/global.scss */
+/* line 348, ../scss/global.scss */
 .block-block-4 .twitter {
   background-position: 0 -24px;
   float: right;
 }
-/* line 349, ../scss/global.scss */
+/* line 352, ../scss/global.scss */
 .block-block-4 .linkedin {
   background-position: 0 0;
   float: right;
 }
 
 /* case study tags */
-/* line 357, ../scss/global.scss */
+/* line 360, ../scss/global.scss */
 .view-node-tags .views-field-name {
   background-color: #ab2039;
-  background-repeat: no-repeat;
-  background-position: 5% 50%;
   display: block;
   width: 150px;
   height: 34px;
@@ -529,26 +530,26 @@ a, a:link, a:visited {
   border-radius: 5px;
   font-weight: bold;
 }
-/* line 360, ../scss/global.scss */
+/* line 363, ../scss/global.scss */
 .view-node-tags .views-field-name a {
   color: #232323;
   padding: 3px 5px 5px 30px;
   height: 24px;
   display: block;
 }
-/* line 366, ../scss/global.scss */
+/* line 369, ../scss/global.scss */
 .view-node-tags .views-field-name .Drupal {
   background-position: 0 -201px;
 }
-/* line 369, ../scss/global.scss */
+/* line 372, ../scss/global.scss */
 .view-node-tags .views-field-name .Wordpress {
   background-position: 0 -149px;
 }
-/* line 372, ../scss/global.scss */
+/* line 375, ../scss/global.scss */
 .view-node-tags .views-field-name .Email-Marketing {
   background-position: 0 -318px;
 }
-/* line 375, ../scss/global.scss */
+/* line 378, ../scss/global.scss */
 .view-node-tags .views-field-name .Print {
   background-position: 0 -449px;
 }

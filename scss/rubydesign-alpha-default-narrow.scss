@@ -1,10 +1,10 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
 @import "base";
 
-h1 {
+h1 span {
   font-size: 2.9em;
   line-height: inherit;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .block-main-menu ul li {

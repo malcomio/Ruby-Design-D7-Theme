@@ -1,4 +1,6 @@
-<?php if ($wrapper): ?><div<?php print $attributes; ?>><?php endif; ?>  
+<?php if ($wrapper): ?>
+<div<?php print $attributes; ?>>
+<?php endif; ?>  
   <div<?php print $content_attributes; ?>>   
     <?php if($content_divider_top):?>
     <div class="divider"></div>
