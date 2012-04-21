@@ -28,6 +28,9 @@ h3 {
 
 a, a:link, a:visited {
   text-decoration: none;
+  &:hover, &:active, &:focus {
+    color: $hover;
+  }
 }
 
 #zone-header-wrapper {
@@ -45,6 +48,9 @@ a, a:link, a:visited {
   
   a {
     color: $red;
+    &:hover {
+      color: $hover;
+    }
   }
 }
 
@@ -112,6 +118,7 @@ a, a:link, a:visited {
 .block-main-menu ul li.active-trail a {
   color: $red;
 }
+
 #block-menu-menu-secondary-navigation {
   float: right;
 }
@@ -126,7 +133,6 @@ a, a:link, a:visited {
 /* home page slideshow */
 .view-case-studies {
   position: relative;
-  
 }
 
 .left {
@@ -159,8 +165,6 @@ a, a:link, a:visited {
   width: 360px;
   height: 209px;
 }
-
-
 
 .view-single-case-study .views-field-title a.tabledrag-handle,
 .view-single-case-study .draggable .views-field-title .draggable a.tabledrag-handle,
@@ -260,7 +264,7 @@ a, a:link, a:visited {
   }
   
   .zone-content .region-content {
-/*    margin: 20px 0;*/
+    /*    margin: 20px 0;*/
     padding: 20px 20px 0;
     width: 100%;
   }
@@ -271,7 +275,7 @@ a, a:link, a:visited {
     
     span {
       padding-top: 0;
-      }
+    }
     
     .design {
       color: #000;
@@ -329,12 +333,12 @@ a, a:link, a:visited {
   }
   .phone {
     display: block;
-/*    background: url('../images/phone.png') no-repeat;  */
+    /*    background: url('../images/phone.png') no-repeat;  */
     text-align: right;
   }
   
   .email {
-/*    background: url('../images/email.png') no-repeat;  */
+    /*    background: url('../images/email.png') no-repeat;  */
     margin-top: 4px;
   }
   .social {
@@ -358,28 +362,28 @@ a, a:link, a:visited {
 /* case study tags */
 .view-node-tags .views-field-name {
   @include taxonomyTerms;
-
+  
   a {
     color: $dark_grey;
     padding: 3px 5px 5px 30px;
     height: 24px;
     display: block;
   }
-    .Drupal {
-      @include transparent-sprite(drupal);
-    }
-    .Wordpress {
-      @include transparent-sprite(wordpress);
-    }
-    .Email-Marketing {
-      @include transparent-sprite(email24);
-    }
-    .Print  {
-      @include transparent-sprite(print);
-    }
-    .Web {
-      @include transparent-sprite(web);  
-    }
+  .Drupal {
+    @include transparent-sprite(drupal);
+  }
+  .Wordpress {
+    @include transparent-sprite(wordpress);
+  }
+  .Email-Marketing {
+    @include transparent-sprite(email24);
+  }
+  .Print  {
+    @include transparent-sprite(print);
+  }
+  .Web {
+    @include transparent-sprite(web);  
+  }
 }
 
 /* modal form */
