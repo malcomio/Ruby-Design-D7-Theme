@@ -143,13 +143,8 @@ a, a:link, a:visited {
 
 .view-single-case-study .views-field-title a, 
 .view-case-studies .views-field-title a{
-  background: $red;
-  display: block;
-  padding: 5px 10px;
-  font-family: $sanserif;
-  font-size: 1em;
-  font-weight: 600;
-  position: absolute;
+  @include linkred;
+/*  padding: 5px 10px;*/
   bottom: 20px;
   left: 20px;
   /*  width: 100px;*/
@@ -171,30 +166,6 @@ a, a:link, a:visited {
 .view-case-studies .views-field-title a.tabledrag-handle,
 .view-case-studies .draggable .views-field-title .draggable a.tabledrag-handle {
   position: static;
-}
-
-
-
-.view-single-case-study  .views-slideshow-pager-field-item,
-.view-case-studies .views-slideshow-pager-field-item {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  border: 1px solid $red;
-  float: left;
-  margin-left: 10px;
-}
-
-.view-case-studies .views-slideshow-pager-field-item.active {
-  background: $red;
-}
-
-.views-slideshow-controls-bottom {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  z-index: 999;
 }
 
 /* portfolio slideshow */
