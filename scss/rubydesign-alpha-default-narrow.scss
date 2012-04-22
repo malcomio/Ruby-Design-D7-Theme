@@ -10,6 +10,25 @@ h1 {
   }
 }
 
+/* hidden elements on mobile */
+.region-sidebar-first, 
+.view-node-images,
+.block-testimonials-block,
+.block-views-portfolio-block, /* portfolio slideshow */
+.views-field-field-preview,
+.view-single-case-study .views-field-title a, 
+.view-case-studies .views-field-field-url a, 
+.views-field-view-node a, 
+.free-web-check,
+.block-block-1, /* twitter */
+.view-node-tags /* case study tags */ {
+  display: block;
+}
+
+.divider {
+  background: url(../images/dividerstripe.png) no-repeat;
+  height: 40px;
+}
 
 .zone-branding .region-branding.grid-12 {
   padding: 10px 20px;
@@ -90,14 +109,6 @@ h1 {
   bottom: 20px;
 }
 
-/* twitter */ 
-.block-block-1 {
-  display: block;
-}
-div.tweets-pulled-listing a {
-  color: $red;
-}
-
 div.tweets-pulled-listing a.twitter {
   @include transparent-sprite(logo_twitter);
   width: 150px;
@@ -138,7 +149,6 @@ div.tweets-pulled-listing a.twitter {
 
 /* portfolio */
 .block-views-portfolio-block {
-  display: block;
   
   .views-row {
     float: left;
@@ -148,6 +158,10 @@ div.tweets-pulled-listing a.twitter {
   .img {
     width: 210px;
   }
+  .views-field-field-image-portfolio {
+/*  margin: 10px 0 10px 15px;*/
+    }
+  
   .views-slideshow-cycle-main-frame-row-item.views-row-0 .views-field-field-image-portfolio,
   .views-slideshow-cycle-main-frame-row-item.views-row-0 .views-field-title a {
     margin-left: 30px;
@@ -162,15 +176,21 @@ div.tweets-pulled-listing a.twitter {
   display: none;
 }
 
-.page-node-7 .block-main {
+.page-node-7 {
+    .block-main {
   width: 45%;
   float: left;    
 }
-.page-node-7 h1 {
+h1 {
   width: 55%;
   float: left;
   padding: 10px 0;
   
+}
+  .zone-content .region-content {
+    /*    margin: 20px 0;*/
+    padding: 20px 20px 0;
+    }
 }
 
 .page-portfolio-service {
@@ -211,7 +231,6 @@ div.tweets-pulled-listing a.twitter {
 
 .free-web-check {
   @include transparent-sprite(free);
-  display: block;
   width: 99px;
   height: 101px;
   float: left;
@@ -250,5 +269,17 @@ div.tweets-pulled-listing a.twitter {
 }
 
 .region-sidebar-first {
-  display: block;
+  padding: 10px 20px 10px;
+  
+  h2, h3, .status_date {
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    display: inline;
+  }
+  .status_date {
+    font-size: 80%;
+    display: inline;
+  }
 }

@@ -27,6 +27,7 @@ h3 {
 }
 
 a, a:link, a:visited {
+  color: $red;
   text-decoration: none;
   &:hover, &:active, &:focus {
     color: $hover;
@@ -45,39 +46,12 @@ a, a:link, a:visited {
 
 .zone-content {
   background: #FFF;
-  
-  a {
-    color: $red;
-    &:hover, &:active, &:focus {
-      color: $hover;
-    }
-  }
 }
 
-.divider {
-  background: url(../images/dividerstripe.png) no-repeat;
-  height: 40px;
-}
+
 #region-sidebar-first, #region-header-first {
   margin-left: 0;
   margin-right: 0;
-}
-
-.region-sidebar-first {
-  display: none;
-  padding: 10px 20px 10px;
-  
-  h2, h3, .status_date {
-    margin-bottom: 0;
-  }
-  
-  h3 {
-    display: inline;
-  }
-  .status_date {
-    font-size: 80%;
-    display: inline;
-  }
 }
 
 .node-page {
@@ -89,9 +63,6 @@ a, a:link, a:visited {
   float: left;
 }
 
-.free-web-check {
-  display: none;
-}
 
 /* menus */
 .block-main-menu {
@@ -130,8 +101,8 @@ a, a:link, a:visited {
   color: #000;
   
   &.active-trail {
-  color: $red;  
-    }
+    color: $red;  
+  }
   &:hover, &:active, &:focus {
     color: $hover;
   }  
@@ -154,7 +125,7 @@ a, a:link, a:visited {
 
 .views_slideshow_cycle_teaser_section {
   margin: 0 auto;
-  }
+}
 
 .view-single-case-study .views-field-field-url a, 
 .view-case-studies .views-field-title a {
@@ -167,12 +138,7 @@ a, a:link, a:visited {
     color: #fff;
   }  
 }
-.views-field-field-preview,
-.view-single-case-study .views-field-title a, 
-.view-case-studies .views-field-field-url a, 
-.views-field-view-node a {
-  display: none;
-}
+
 
 .right img {
   width: 320px;
@@ -186,10 +152,6 @@ a, a:link, a:visited {
   position: static;
 }
 
-/* portfolio slideshow */
-.block-views-portfolio-block {
-  display: none;
-}
 .view-portfolio {
   position: relative;
   .views-row {
@@ -199,7 +161,9 @@ a, a:link, a:visited {
   img {
     display: block;
     margin: 0 auto;
-    }
+    width: 260px;
+    height: 153px;
+  }
   
   .views-field-title {
     width: 100%;
@@ -223,7 +187,7 @@ a, a:link, a:visited {
     margin-left: 10px;
   }
   .views-field-field-image-portfolio {
-    margin: 10px 0 10px 15px;
+    margin: 10px 0;
   }
   
   #views-form-portfolio-attachment-1 a:after {
@@ -258,7 +222,7 @@ a, a:link, a:visited {
   
   .zone-content .region-content {
     /*    margin: 20px 0;*/
-    padding: 20px 20px 0;
+    padding: 10px 0;
     width: 100%;
   }
   
@@ -299,36 +263,29 @@ a, a:link, a:visited {
   margin-bottom: 20px;
 }
 
-.logo-img img {
+.logo-img {
+  
   margin-right: 0;
-  width: 140px;
+  img {
+    width: 140px;
+  }
 }
 /* mobile menu */
 .mnav {
   width: 100%;
 }
 
-/* twitter */
-.block-block-1 {
-  display: none;
-}
-
 /* contact details */
 .block-block-4 {
   float: right;
-  margin-top: 30px;
+  margin-top: 20px;
   
-  a {
-    color: $red;
-  }
   .phone {
     display: block;
-    /*    background: url('../images/phone.png') no-repeat;  */
     text-align: right;
   }
   
   .email {
-    /*    background: url('../images/email.png') no-repeat;  */
     margin-top: 4px;
   }
   .social {
@@ -349,8 +306,17 @@ a, a:link, a:visited {
   }
 }
 
-/* case study tags */
-.view-node-tags {
+.view-node-images,
+.region-sidebar-first, 
+.block-testimonials-block,
+.block-views-portfolio-block, /* portfolio slideshow */
+.views-field-field-preview,
+.view-single-case-study .views-field-title a, 
+.view-case-studies .views-field-field-url a, 
+.views-field-view-node a, 
+.free-web-check,
+.block-block-1, /* twitter */
+.view-node-tags /* case study tags */ {
   display: none;
 }
 
