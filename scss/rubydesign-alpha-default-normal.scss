@@ -56,12 +56,15 @@ h1 span {
   margin: 30px 0;  
 }
 
-.block-main-menu ul li {
-  float: left;
-}
+
 
 .block-views-portfolio-block {
   .views-row {
     width: 320px;
   }
+}
+
+.branding-data img {
+  width: auto;
+  margin: 0;
 }

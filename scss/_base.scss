@@ -43,6 +43,11 @@ $sanserif : Arial,sans-serif;
   font-weight: 700;
   color: #FFF;
   text-transform: uppercase;
+  &:after {
+    content: '';
+    background: none;
+    display: inline;
+    }
 }
 
 @mixin linkafter {
@@ -73,6 +78,10 @@ $sanserif : Arial,sans-serif;
   position: absolute;
   color: #FFF;
   text-transform: uppercase;  
+  z-index: 999;
+  &:after {
+    @include linkafter;
+    }
 }
 
 
