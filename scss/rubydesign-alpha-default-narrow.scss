@@ -113,8 +113,7 @@ div.tweets-pulled-listing a.twitter {
   @include transparent-sprite(logo_twitter);
   width: 150px;
   height: 28px;
-  text-indent: -9999px;
-  display: block;
+  @include invisible;
   margin-bottom: 20px;
 }
 /* contact details */
@@ -148,21 +147,22 @@ div.tweets-pulled-listing a.twitter {
 }
 
 /* portfolio */
-.block-views-portfolio-block {
+.view-portfolio {
   
   .views-row {
     float: left;
     width: 240px;
     min-width: 240px;
   }
-  .img {
+  img {
     width: 210px;
+    height: 124px;
   }
   .views-field-field-image-portfolio {
-    margin: 10px 0 10px 15px;
+    margin: 10px 0;
   }
   .views-field-title a {
-    margin-left: 35px;
+    margin-left: 15px;
     }
   
   .views-slideshow-cycle-main-frame-row-item.views-row-0 {
@@ -170,7 +170,7 @@ div.tweets-pulled-listing a.twitter {
       margin-left: 30px;
     }
     .views-field-title a {
-      margin-left: 45px;
+      margin-left: 30px;
     } 
   }
   .views-slideshow-cycle-main-frame-row-item.views-row-2 {
@@ -246,7 +246,7 @@ div.tweets-pulled-listing a.twitter {
   width: 99px;
   height: 101px;
   float: left;
-  text-indent: -9999px;
+  @include invisible;
   margin-right: 15px;
 }
 

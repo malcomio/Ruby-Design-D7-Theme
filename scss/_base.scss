@@ -16,6 +16,11 @@ $hover : lighten($red, 20%);
 $serif : Georgia, serif;
 $sanserif : Arial,sans-serif;
 
+@mixin invisible {
+  text-indent: -9999px;
+  display: block;
+}
+
 @mixin leftside {
   width: 300px;
   float: left;

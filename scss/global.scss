@@ -199,7 +199,7 @@ a, a:link, a:visited {
   display: block;
   width: 13px;
   height: 24px;
-  text-indent: -9999px;
+  @include invisible;
   position: absolute;
   top: 83px;
   z-index: 99;
@@ -289,8 +289,7 @@ a, a:link, a:visited {
     margin-top: 4px;
   }
   .social {
-    text-indent: -9999px;
-    display: block;
+    @include invisible;
     margin-bottom: 20px;    
     width: 24px;
     height: 24px;
