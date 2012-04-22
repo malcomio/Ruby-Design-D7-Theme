@@ -1,15 +1,6 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
 @import "base";
 
-h1 {
-  font-size: 2.9em;
-  span {
-    padding-top: 32px;
-    line-height: inherit;
-    margin-bottom: 40px;
-  }
-}
-
 /* hidden elements on mobile */
 .region-sidebar-first, 
 .view-node-images,
@@ -23,6 +14,15 @@ h1 {
 .block-block-1, /* twitter */
 .view-node-tags /* case study tags */ {
   display: block;
+}
+
+h1 {
+  font-size: 2.9em;
+  span {
+    padding-top: 32px;
+    line-height: inherit;
+    margin-bottom: 40px;
+  }
 }
 
 .divider {
@@ -59,11 +59,9 @@ h1 {
   @include leftside;  
 }
 
-.right {
-  float: left;
-}
-
-.left,.block-single-case-study-block-1,.block-views-testimonials-block,
+.left,
+.block-single-case-study-block-1,
+.block-views-testimonials-block,
 .view-case-studies {
   height: 232px;
   position: static;
@@ -73,12 +71,12 @@ h1 {
   left: 160px;
 }
 .right {
+  float: left;
   width: 420px;
-}
-
-.right img {
-  width: 400px;
-  height: 232px;
+  img {
+    width: 400px;
+    height: 232px;
+  }
 }
 
 .view-single-case-study .views-field-field-url a, 
@@ -101,20 +99,18 @@ h1 {
 .view-case-studies .views-field-field-url a, 
 .views-field-view-node a {
   @include linkred;
-}
-
-.views-field-view-node a,
-.view-single-case-study .views-field-field-url a,
-.view-case-studies .views-field-field-url a {
   bottom: 20px;
 }
 
-div.tweets-pulled-listing a.twitter {
-  @include transparent-sprite(logo_twitter);
-  width: 150px;
-  height: 28px;
-  @include invisible;
-  margin-bottom: 20px;
+div.tweets-pulled-listing a{
+  color: $red;
+  &.twitter {
+    @include transparent-sprite(logo_twitter);
+    width: 150px;
+    height: 28px;
+    @include invisible;
+    margin-bottom: 20px;
+  }
 }
 /* contact details */
 .block-block-4 {
@@ -122,12 +118,10 @@ div.tweets-pulled-listing a.twitter {
   
   a {
     float: left;
-    
   }
   .social {
     margin-bottom: 0;
   }
-  
 }
 .phone {
   float: left;
@@ -137,9 +131,15 @@ div.tweets-pulled-listing a.twitter {
   margin: 4px 8px;
 }
 /* contact form */
+.page-node-29 {
+  .block-main,.block-contact-form-blocks {
+    float: left;
+    width: 300px;
+  }
+}
+
 .block-contact-form-blocks {
-  float: left;
-  width: 300px;
+  
   
   .form-text, .form-textarea, .grippie {
     width: 260px;
@@ -163,7 +163,7 @@ div.tweets-pulled-listing a.twitter {
   }
   .views-field-title a {
     margin-left: 15px;
-    }
+  }
   
   .views-slideshow-cycle-main-frame-row-item.views-row-0 {
     .views-field-field-image-portfolio {

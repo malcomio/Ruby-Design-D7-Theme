@@ -130,7 +130,6 @@ a, a:link, a:visited {
 .view-single-case-study .views-field-field-url a, 
 .view-case-studies .views-field-title a {
   @include linkred;
-  padding: 5px 30px 5px 5px;
   bottom: 20px;
   left: 20px;
   width: auto;
@@ -241,22 +240,28 @@ a, a:link, a:visited {
   }
 }
 /* testimonials */
-.view-testimonials .views-field-body:before,
-.view-testimonials .views-field-body:after {
-  content: ' ';
-  display: inline-block;
-  width: 48px;
-  height: 23px;
-}
-.view-testimonials .views-field-body:before {
-  @include transparent-sprite(quote-before);
-}
-.view-testimonials .views-field-body:after {
-  @include transparent-sprite(quote-after);
-}
-.view-testimonials .views-field-body .field-content  {
-  display: inline;
-  @include white20pt;
+.view-testimonials {
+  .views-field-body {
+    .field-content {
+    display: inline;
+    }
+    @include white20pt;
+    
+    &:before,
+    &:after {
+      content: ' ';
+      display: inline-block;
+      width: 48px;
+      height: 23px;
+    }
+    &:before {
+      @include transparent-sprite(quote-before);
+    }
+    &:after {
+      @include transparent-sprite(quote-after);
+      vertical-align: bottom;
+    }
+  }
 }
 
 .zone-postscript-wrapper {

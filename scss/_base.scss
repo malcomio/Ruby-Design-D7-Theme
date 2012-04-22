@@ -34,7 +34,7 @@ $sanserif : Arial,sans-serif;
 
 @mixin white20pt {
   font-family: $sanserif;
-  font-size: 1.6em;
+  font-size: 1.2em;
   line-height: 140%;
 }
 
@@ -75,9 +75,10 @@ $sanserif : Arial,sans-serif;
 @mixin linkred {
   background: $red;
   display: block;
-  padding: 5px;
+  padding: 8px 30px 5px 5px;
   font-family: $sanserif;
   font-size: 1em;
+  line-height: 1em;
   font-weight: 600;
   height: 27px;
   position: absolute;
