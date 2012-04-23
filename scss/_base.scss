@@ -47,12 +47,16 @@ $sanserif : Arial,sans-serif;
   font-family: $serif;
   font-weight: 700;
   color: #FFF;
+  padding: 0;
+  position: static;
+  top: 0;
+  left: 0;
   text-transform: uppercase;
   &:after {
     content: '';
     background: none;
     display: inline;
-    }
+  }
 }
 
 @mixin linkafter {
@@ -68,9 +72,9 @@ $sanserif : Arial,sans-serif;
 
 @mixin circle {
   @include transparent-sprite(circlearrow);
-    height: 24px;
-    width: 24px;  
-  }
+  height: 24px;
+  width: 24px;  
+}
 
 @mixin linkred {
   background: $red;
@@ -87,7 +91,7 @@ $sanserif : Arial,sans-serif;
   z-index: 999;
   &:after {
     @include linkafter;
-    }
+  }
 }
 
 
