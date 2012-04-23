@@ -250,10 +250,6 @@ div.tweets-pulled-listing a{
   margin-right: 15px;
 }
 
-.view-node-tags {
-  display: none;
-}
-
 .view-node-tags .views-field-name {
   @include taxonomyTerms;
   
