@@ -10,7 +10,6 @@
 .view-single-case-study .views-field-title a, 
 .view-case-studies .views-field-field-url a, 
 .views-field-view-node a, 
-.free-web-check,
 .block-block-1, /* twitter */
 .view-node-tags /* case study tags */ {
   display: block;
@@ -241,15 +240,6 @@ div.tweets-pulled-listing a{
   }
 }
 
-.free-web-check {
-  @include transparent-sprite(free);
-  width: 99px;
-  height: 101px;
-  float: left;
-  @include invisible;
-  margin-right: 15px;
-}
-
 .view-node-tags .views-field-name {
   @include taxonomyTerms;
   
@@ -289,5 +279,33 @@ div.tweets-pulled-listing a{
   .status_date {
     font-size: 80%;
     display: inline;
+  }
+}
+
+/* form fields */
+#browserdetect-browserform {
+  .form-submit {
+    clear: both;
+    }
+  .form-type-textfield,
+  .form-type-emailfield {
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+    
+    input {
+      width: 100%;
+      }
+  }
+    
+  fieldset {
+    width: 50%;
+    float: left;
+    &#edit-window {
+      clear: left;
+      }
+    .form-item {
+      width: 30%;
+    }
   }
 }

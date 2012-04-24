@@ -2,6 +2,7 @@
 
 define('HOMEPAGE', 4);
 define('PORTFOLIO', 7);
+define('CONTACT', 29);
 
 function rubydesign_alpha_preprocess_region(&$vars) {
 
@@ -17,6 +18,7 @@ function rubydesign_alpha_preprocess_region(&$vars) {
     // don't show the web check link on specific nodes
     $no_webcheck_nodes = array(
 //      PORTFOLIO,
+      CONTACT,
     );
     $webcheck = $nid && !in_array($nid, $no_webcheck_nodes);
     $vars['webcheck'] = $webcheck;
@@ -76,4 +78,8 @@ function rubydesign_alpha_preprocess_zone(&$vars) {
 
     $vars['content_divider_bottom'] = $nid && in_array($nid, $content_divider_bottom_nodes);
   }
+}
+
+function rubydesign_preprocess_views_view(&$vars) {
+//  dpm($vars);
 }

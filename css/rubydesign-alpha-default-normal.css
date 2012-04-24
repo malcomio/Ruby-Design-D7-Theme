@@ -1,127 +1,127 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
-/* line 170, transparent/*.png */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/transparent\/\*\.png}line{font-family:\00003170}}
 .transparent-sprite, .transparent-circlearrow, .transparent-drupal, .transparent-email, .transparent-email24, .transparent-free, .transparent-linkedin, .transparent-logo_twitter, .transparent-next, .transparent-prev, .transparent-print, .transparent-quote-after, .transparent-quote-before, .transparent-ruby, .transparent-twitter-2, .transparent-view-link, .transparent-web, .transparent-wordpress {
   background: url('../images/transparent-s9cb7d4eeea.png') no-repeat;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-circlearrow {
   background-position: 0 -380px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-drupal {
   background-position: 0 -225px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-email {
   background-position: 0 -366px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-email24 {
   background-position: 0 -342px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-free {
   background-position: 0 -48px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-linkedin {
   background-position: 0 0;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-logo_twitter {
   background-position: 0 -197px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-next {
   background-position: 0 -404px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-prev {
   background-position: 0 -455px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-print {
   background-position: 0 -479px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-quote-after {
   background-position: 0 -296px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-quote-before {
   background-position: 0 -319px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-ruby {
   background-position: 0 -249px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-twitter-2 {
   background-position: 0 -24px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-view-link {
   background-position: 0 -428px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-web {
   background-position: 0 -149px;
 }
 
-/* line 60, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .transparent-wordpress {
   background-position: 0 -173px;
 }
 
 /* colours */
 /* fonts */
-/* line 9, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\000039}}
 h1 span {
   display: block;
 }
 
-/* line 13, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000313}}
 .section-header .zone-header.container-12 .grid-12 {
   width: 960px;
 }
 
-/* line 18, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000318}}
 .block-single-case-study-block,
 .view-case-studies .right {
   float: left;
   width: 660px;
 }
 
-/* line 23, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000323}}
 .block-views-node-images-block-1,
 .block-views-node-images-block {
   float: left;
   width: 660px;
 }
 
-/* line 27, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000327}}
 .right img {
   width: auto;
   height: auto;
 }
 
-/* line 32, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000332}}
 #region-content .grid-half {
   margin-left: 0;
   margin-right: 20px;
@@ -129,13 +129,13 @@ h1 span {
   float: left;
 }
 
-/* line 40, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000340}}
 .left, .block-single-case-study-block-1, .block-views-testimonials-block,
 .view-case-studies {
   height: 378px;
 }
 
-/* line 46, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000346}}
 .view-single-case-study .views-field-field-url a,
 .view-case-studies .views-field-field-url a,
 .views-field-view-node a {
@@ -143,23 +143,34 @@ h1 span {
   left: 20px;
 }
 
-/* line 50, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000350}}
 .views-field-view-node a {
   bottom: 60px;
   left: 20px;
 }
 
-/* line 55, ../scss/rubydesign-alpha-default-normal.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000355}}
 .views-field-field-preview {
   margin: 30px 0;
 }
 
-/* line 59, ../scss/rubydesign-alpha-default-normal.scss */
-.block-main-menu ul li {
-  float: left;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000362}}
+.view-portfolio .views-row {
+  width: 320px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000365}}
+.view-portfolio img {
+  width: 290px;
+  height: 178px;
 }
 
-/* line 64, ../scss/rubydesign-alpha-default-normal.scss */
-.block-views-portfolio-block .views-row {
-  width: 320px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000371}}
+.branding-data img {
+  width: auto;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000376}}
+.view-testimonials .views-field-body .field-content {
+  font-size: 1.6em;
 }

@@ -318,14 +318,26 @@ a, a:link, a:visited {
 .view-single-case-study .views-field-title a, 
 .view-case-studies .views-field-field-url a, 
 .views-field-view-node a, 
-.free-web-check,
 .block-block-1, /* twitter */
 .view-node-tags /* case study tags */ {
   display: none;
 }
 
 
+.free-web-check {
+  @include transparent-sprite(free);
+  width: 99px;
+  height: 101px;
+  float: left;
+  @include invisible;
+  margin-right: 15px;
+}
+
 /* modal form */
 div.modal-forms-modal-content .modal-title {
   color: $red;
 }
+
+form {
+  margin-bottom: 30px;
+  }
