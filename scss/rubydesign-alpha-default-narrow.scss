@@ -18,11 +18,16 @@
 h1 {
   font-size: 2.9em;
   span {
-/*    padding-top: 32px;*/
+    padding-top: 32px;
     line-height: inherit;
     margin-bottom: 40px;
   }
 }
+
+.block-main {
+  clear: left;
+  margin-top: 30px;
+  }
 
 .divider {
   background: url(../images/dividerstripe.png) no-repeat;
