@@ -17,6 +17,8 @@ h1 {
   font-weight: 400;
   margin-top: 10px;
   text-transform: uppercase;
+  width: 100%;
+  display: block;
 }
 h2 {
   font-size: 1.6em;
@@ -331,6 +333,7 @@ a, a:link, a:visited {
   float: left;
   @include invisible;
   margin-right: 15px;
+  display: inline-block;
 }
 
 /* modal form */

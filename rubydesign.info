@@ -55,6 +55,7 @@ css[global.css][description] = This file holds all the globally active custom CS
 css[global.css][options][weight] = 10
 
 scripts[] = js/jquery.mobilemenu.min.js
+scripts[] = js/jquery.fittext.js
 scripts[] = js/global.js
 
 

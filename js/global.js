@@ -6,9 +6,11 @@ jQuery(document).ready(function($){
 //    $('.block-block-1').addClass('element-invisible');
   }
   
-  $('ul.menu').mobileMenu({prependTo: '.zone-menu', combine: false});
-//  $('.block-menu-secondary-navigation ul').mobileMenu({prependTo: '.zone-postscript', combine: false});
+  $('ul.menu').mobileMenu({prependTo: '.zone-menu', combine: false, switchWidth: 500});
 
   // move the secondary mobile menu 
   $('#mm1').prependTo('#zone-postscript-wrapper');
+  
+  // resize the h1
+  $('h1#page-title').fitText();
 });
