@@ -1,100 +1,100 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/transparent\/\*\.png}line{font-family:\00003170}}
+/* line 123, transparent */
 .transparent-sprite, .transparent-circlearrow, .transparent-drupal, .transparent-email, .transparent-email24, .transparent-free, .transparent-linkedin, .transparent-logo_twitter, .transparent-next, .transparent-prev, .transparent-print, .transparent-quote-after, .transparent-quote-before, .transparent-ruby, .transparent-twitter-2, .transparent-view-link, .transparent-web, .transparent-wordpress, .view-single-case-study .views-field-field-url a:after,
 .view-case-studies .views-field-field-url a:after,
 .views-field-view-node a:after, div.tweets-pulled-listing a.twitter, .view-service-portfolio .views-field-title a:after, .view-node-tags .views-field-name .Drupal, .view-node-tags .views-field-name .Wordpress, .view-node-tags .views-field-name .Email-Marketing, .view-node-tags .views-field-name .Print, .view-node-tags .views-field-name .Web {
-  background: url('../images/transparent-s9cb7d4eeea.png') no-repeat;
+  background: url('/images/transparent-s240e7c5b0c.png') no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-circlearrow {
-  background-position: 0 -380px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-drupal {
-  background-position: 0 -225px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-email {
-  background-position: 0 -366px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-email24 {
-  background-position: 0 -342px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-free {
-  background-position: 0 -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-linkedin {
   background-position: 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-logo_twitter {
-  background-position: 0 -197px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-next {
-  background-position: 0 -404px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-prev {
-  background-position: 0 -455px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-print {
-  background-position: 0 -479px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-quote-after {
-  background-position: 0 -296px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-quote-before {
-  background-position: 0 -319px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-ruby {
-  background-position: 0 -249px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-twitter-2 {
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-drupal {
   background-position: 0 -24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-email {
+  background-position: 0 -48px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-email24 {
+  background-position: 0 -62px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-free {
+  background-position: 0 -86px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-linkedin {
+  background-position: 0 -187px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-logo_twitter {
+  background-position: 0 -211px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-next {
+  background-position: 0 -239px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-prev {
+  background-position: 0 -263px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-print {
+  background-position: 0 -287px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-quote-after {
+  background-position: 0 -311px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-quote-before {
+  background-position: 0 -334px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-ruby {
+  background-position: 0 -357px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-twitter-2 {
+  background-position: 0 -404px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-view-link {
   background-position: 0 -428px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-web {
-  background-position: 0 -149px;
+  background-position: 0 -455px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-wordpress {
-  background-position: 0 -173px;
+  background-position: 0 -479px;
 }
 
 /* colours */
 /* fonts */
 /* hidden elements on mobile */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000314}}
+/* line 14, ../scss/rubydesign-alpha-default-narrow.scss */
 .region-sidebar-first,
 .view-node-images,
 .block-testimonials-block,
@@ -108,56 +108,61 @@
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000318}}
+/* line 18, ../scss/rubydesign-alpha-default-narrow.scss */
 h1 {
   font-size: 2.9em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000320}}
+/* line 20, ../scss/rubydesign-alpha-default-narrow.scss */
 h1 span {
-  padding-top: 32px;
   line-height: inherit;
   margin-bottom: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000327}}
+/* line 26, ../scss/rubydesign-alpha-default-narrow.scss */
+.block-main {
+  clear: left;
+  margin-top: 30px;
+}
+
+/* line 31, ../scss/rubydesign-alpha-default-narrow.scss */
 .divider {
   background: url(../images/dividerstripe.png) no-repeat;
   height: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000332}}
+/* line 36, ../scss/rubydesign-alpha-default-narrow.scss */
 .zone-branding .region-branding.grid-12 {
   padding: 10px 20px;
   margin: 0;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000337}}
+/* line 41, ../scss/rubydesign-alpha-default-narrow.scss */
 .branding-data {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000339}}
+/* line 43, ../scss/rubydesign-alpha-default-narrow.scss */
 .branding-data .logo-img {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000342}}
+/* line 46, ../scss/rubydesign-alpha-default-narrow.scss */
 .branding-data img {
   width: auto;
   margin: 10px 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000347}}
+/* line 51, ../scss/rubydesign-alpha-default-narrow.scss */
 .block-main-menu ul li {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000351}}
+/* line 55, ../scss/rubydesign-alpha-default-narrow.scss */
 .section-header .zone-header.container-12 .grid-12 {
   width: 720px;
 }
 
 /* case study block */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000357}}
+/* line 61, ../scss/rubydesign-alpha-default-narrow.scss */
 .block-single-case-study-block-1,
 .view-case-studies .left {
   width: 300px;
@@ -170,7 +175,7 @@ h1 span {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000364}}
+/* line 68, ../scss/rubydesign-alpha-default-narrow.scss */
 .left,
 .block-single-case-study-block-1,
 .block-views-testimonials-block,
@@ -179,30 +184,30 @@ h1 span {
   position: static;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000369}}
+/* line 73, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-case-studies .views-field-field-url a {
   left: 160px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000372}}
+/* line 76, ../scss/rubydesign-alpha-default-narrow.scss */
 .right {
   float: left;
   width: 420px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000375}}
+/* line 79, ../scss/rubydesign-alpha-default-narrow.scss */
 .right img {
   width: 400px;
   height: 232px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000383}}
+/* line 87, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-single-case-study .views-field-field-url a,
 .view-case-studies .views-field-field-url a,
 .views-field-view-node a {
   width: 130px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000386}}
+/* line 90, ../scss/rubydesign-alpha-default-narrow.scss */
 .views-field-field-preview {
   font-family: Arial, sans-serif;
   font-size: 1.2em;
@@ -210,7 +215,7 @@ h1 span {
 }
 
 /* links to project and site */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000392}}
+/* line 96, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-single-case-study .views-field-title a,
 .view-case-studies .views-field-title a {
   font-family: Georgia, serif;
@@ -228,7 +233,7 @@ h1 span {
   text-transform: uppercase;
   width: 280px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/_base\.scss}line{font-family:\0000355}}
+/* line 55, ../scss/_base.scss */
 .view-single-case-study .views-field-title a:after,
 .view-case-studies .views-field-title a:after {
   content: '';
@@ -236,13 +241,13 @@ h1 span {
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\0000399}}
+/* line 103, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-single-case-study .views-field-field-url a,
 .view-case-studies .views-field-field-url a,
 .views-field-view-node a {
   background: #bf0c2c;
   display: block;
-  padding: 8px 30px 5px 5px;
+  padding: 8px 27px 5px 5px;
   font-family: Arial, sans-serif;
   font-size: 1em;
   line-height: 1em;
@@ -254,7 +259,7 @@ h1 span {
   z-index: 999;
   bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/_base\.scss}line{font-family:\0000392}}
+/* line 92, ../scss/_base.scss */
 .view-single-case-study .views-field-field-url a:after,
 .view-case-studies .views-field-field-url a:after,
 .views-field-view-node a:after {
@@ -268,13 +273,13 @@ h1 span {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003104}}
+/* line 108, ../scss/rubydesign-alpha-default-narrow.scss */
 div.tweets-pulled-listing a {
   color: #bf0c2c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003106}}
+/* line 110, ../scss/rubydesign-alpha-default-narrow.scss */
 div.tweets-pulled-listing a.twitter {
-  background-position: 0 -197px;
+  background-position: 0 -211px;
   width: 150px;
   height: 28px;
   text-indent: -9999px;
@@ -283,135 +288,140 @@ div.tweets-pulled-listing a.twitter {
 }
 
 /* contact details */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003115}}
+/* line 119, ../scss/rubydesign-alpha-default-narrow.scss */
 .block-block-4 {
   margin: 0 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003118}}
+/* line 122, ../scss/rubydesign-alpha-default-narrow.scss */
 .block-block-4 a {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003121}}
+/* line 125, ../scss/rubydesign-alpha-default-narrow.scss */
 .block-block-4 .social {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003125}}
+/* line 129, ../scss/rubydesign-alpha-default-narrow.scss */
 .phone {
   float: left;
   margin: 4px 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003129}}
+/* line 133, ../scss/rubydesign-alpha-default-narrow.scss */
 .mail {
   margin: 4px 8px;
 }
 
 /* contact form */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003134}}
+/* line 138, ../scss/rubydesign-alpha-default-narrow.scss */
 .page-node-29 .block-main, .page-node-29 .block-contact-form-blocks {
   float: left;
   width: 300px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003143}}
+/* line 147, ../scss/rubydesign-alpha-default-narrow.scss */
 .block-contact-form-blocks .form-text, .block-contact-form-blocks .form-textarea, .block-contact-form-blocks .grippie {
   width: 260px;
 }
 
 /* portfolio */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003151}}
+/* line 155, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-portfolio .views-row {
   float: left;
   width: 240px;
   min-width: 240px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003156}}
+/* line 160, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-portfolio img {
   width: 210px;
   height: 124px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003160}}
+/* line 164, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-portfolio .views-field-field-image-portfolio {
   margin: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003163}}
+/* line 167, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-portfolio .views-field-title a {
   margin-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003168}}
+/* line 172, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-portfolio .views-slideshow-cycle-main-frame-row-item.views-row-0 .views-field-field-image-portfolio {
   margin-left: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003171}}
+/* line 175, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-portfolio .views-slideshow-cycle-main-frame-row-item.views-row-0 .views-field-title a {
   margin-left: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003176}}
+/* line 180, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-portfolio .views-slideshow-cycle-main-frame-row-item.views-row-2 .views-field-field-image-portfolio {
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003180}}
+/* line 184, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-portfolio .views-slideshow-cycle-main-frame-row-item.views-row-2 img,
 .view-portfolio .views-slideshow-cycle-main-frame-row-item.views-row-2 .views-field-title a {
   margin-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003186}}
+/* line 190, ../scss/rubydesign-alpha-default-narrow.scss */
 .block-views-portfolio-block-1 {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003191}}
+/* line 195, ../scss/rubydesign-alpha-default-narrow.scss */
 .page-node-7 .block-main {
   width: 45%;
   float: left;
+  clear: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003195}}
+/* line 200, ../scss/rubydesign-alpha-default-narrow.scss */
 .page-node-7 h1 {
   width: 55%;
   float: left;
   padding: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003201}}
+/* line 204, ../scss/rubydesign-alpha-default-narrow.scss */
+.page-node-7 h1 span {
+  display: inline;
+}
+/* line 208, ../scss/rubydesign-alpha-default-narrow.scss */
 .page-node-7 .zone-content .region-content {
   /*    margin: 20px 0;*/
   padding: 20px 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003208}}
+/* line 215, ../scss/rubydesign-alpha-default-narrow.scss */
 .page-portfolio-service h1 {
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003211}}
+/* line 218, ../scss/rubydesign-alpha-default-narrow.scss */
 .page-portfolio-service #region-content {
   margin: 0;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003217}}
+/* line 224, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio div {
   float: left;
   clear: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003221}}
+/* line 228, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio .views-row {
   padding: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003225}}
+/* line 232, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio img {
   margin: 0 20px 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003229}}
+/* line 236, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio .views-field-title {
   height: 40px;
   width: 400px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003232}}
+/* line 239, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio .views-field-title a {
   background: #bf0c2c;
   display: block;
-  padding: 8px 30px 5px 5px;
+  padding: 8px 27px 5px 5px;
   font-family: Arial, sans-serif;
   font-size: 1em;
   line-height: 1em;
@@ -423,7 +433,7 @@ div.tweets-pulled-listing a.twitter {
   z-index: 999;
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/_base\.scss}line{font-family:\0000392}}
+/* line 92, ../scss/_base.scss */
 .view-service-portfolio .views-field-title a:after {
   background-position: 0 -428px;
   content: ' ';
@@ -434,12 +444,12 @@ div.tweets-pulled-listing a.twitter {
   right: 0;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003238}}
+/* line 245, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-service-portfolio .views-field-body {
   width: 550px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003243}}
+/* line 250, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-node-tags .views-field-name {
   background-color: #ab2039;
   display: block;
@@ -450,79 +460,79 @@ div.tweets-pulled-listing a.twitter {
   border-radius: 5px;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003246}}
+/* line 253, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-node-tags .views-field-name a {
   color: #232323;
   padding: 3px 5px 5px 30px;
   height: 24px;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003252}}
+/* line 259, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-node-tags .views-field-name .Drupal {
-  background-position: 0 -225px;
+  background-position: 0 -24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003255}}
+/* line 262, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-node-tags .views-field-name .Wordpress {
-  background-position: 0 -173px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003258}}
-.view-node-tags .views-field-name .Email-Marketing {
-  background-position: 0 -342px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003261}}
-.view-node-tags .views-field-name .Print {
   background-position: 0 -479px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003264}}
+/* line 265, ../scss/rubydesign-alpha-default-narrow.scss */
+.view-node-tags .views-field-name .Email-Marketing {
+  background-position: 0 -62px;
+}
+/* line 268, ../scss/rubydesign-alpha-default-narrow.scss */
+.view-node-tags .views-field-name .Print {
+  background-position: 0 -287px;
+}
+/* line 271, ../scss/rubydesign-alpha-default-narrow.scss */
 .view-node-tags .views-field-name .Web {
-  background-position: 0 -149px;
+  background-position: 0 -455px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003269}}
+/* line 276, ../scss/rubydesign-alpha-default-narrow.scss */
 .region-sidebar-first {
   padding: 10px 20px 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003272}}
+/* line 279, ../scss/rubydesign-alpha-default-narrow.scss */
 .region-sidebar-first h2, .region-sidebar-first h3, .region-sidebar-first .status_date {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003276}}
+/* line 283, ../scss/rubydesign-alpha-default-narrow.scss */
 .region-sidebar-first h3 {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003279}}
+/* line 286, ../scss/rubydesign-alpha-default-narrow.scss */
 .region-sidebar-first .status_date {
   font-size: 80%;
   display: inline;
 }
 
 /* form fields */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003287}}
+/* line 294, ../scss/rubydesign-alpha-default-narrow.scss */
 #browserdetect-browserform .form-submit {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003291}}
+/* line 298, ../scss/rubydesign-alpha-default-narrow.scss */
 #browserdetect-browserform .form-type-textfield,
 #browserdetect-browserform .form-type-emailfield {
   float: left;
   width: 40%;
   margin-right: 10%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003296}}
+/* line 303, ../scss/rubydesign-alpha-default-narrow.scss */
 #browserdetect-browserform .form-type-textfield input,
 #browserdetect-browserform .form-type-emailfield input {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003301}}
+/* line 308, ../scss/rubydesign-alpha-default-narrow.scss */
 #browserdetect-browserform fieldset {
   width: 50%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003304}}
+/* line 311, ../scss/rubydesign-alpha-default-narrow.scss */
 #browserdetect-browserform fieldset#edit-window {
   clear: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-narrow\.scss}line{font-family:\00003307}}
+/* line 314, ../scss/rubydesign-alpha-default-narrow.scss */
 #browserdetect-browserform fieldset .form-item {
   width: 30%;
 }

@@ -1,127 +1,122 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/transparent\/\*\.png}line{font-family:\00003170}}
+/* line 123, transparent */
 .transparent-sprite, .transparent-circlearrow, .transparent-drupal, .transparent-email, .transparent-email24, .transparent-free, .transparent-linkedin, .transparent-logo_twitter, .transparent-next, .transparent-prev, .transparent-print, .transparent-quote-after, .transparent-quote-before, .transparent-ruby, .transparent-twitter-2, .transparent-view-link, .transparent-web, .transparent-wordpress {
-  background: url('../images/transparent-s9cb7d4eeea.png') no-repeat;
+  background: url('/images/transparent-s240e7c5b0c.png') no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-circlearrow {
-  background-position: 0 -380px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-drupal {
-  background-position: 0 -225px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-email {
-  background-position: 0 -366px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-email24 {
-  background-position: 0 -342px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-free {
-  background-position: 0 -48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-linkedin {
   background-position: 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-logo_twitter {
-  background-position: 0 -197px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-next {
-  background-position: 0 -404px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-prev {
-  background-position: 0 -455px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-print {
-  background-position: 0 -479px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-quote-after {
-  background-position: 0 -296px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-quote-before {
-  background-position: 0 -319px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-ruby {
-  background-position: 0 -249px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.transparent-twitter-2 {
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-drupal {
   background-position: 0 -24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-email {
+  background-position: 0 -48px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-email24 {
+  background-position: 0 -62px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-free {
+  background-position: 0 -86px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-linkedin {
+  background-position: 0 -187px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-logo_twitter {
+  background-position: 0 -211px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-next {
+  background-position: 0 -239px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-prev {
+  background-position: 0 -263px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-print {
+  background-position: 0 -287px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-quote-after {
+  background-position: 0 -311px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-quote-before {
+  background-position: 0 -334px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-ruby {
+  background-position: 0 -357px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.transparent-twitter-2 {
+  background-position: 0 -404px;
+}
+
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-view-link {
   background-position: 0 -428px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-web {
-  background-position: 0 -149px;
+  background-position: 0 -455px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+/* line 60, ../../../../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .transparent-wordpress {
-  background-position: 0 -173px;
+  background-position: 0 -479px;
 }
 
 /* colours */
 /* fonts */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\000039}}
-h1 span {
-  display: block;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000313}}
+/* line 9, ../scss/rubydesign-alpha-default-normal.scss */
 .section-header .zone-header.container-12 .grid-12 {
   width: 960px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000318}}
+/* line 14, ../scss/rubydesign-alpha-default-normal.scss */
 .block-single-case-study-block,
 .view-case-studies .right {
   float: left;
   width: 660px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000323}}
+/* line 19, ../scss/rubydesign-alpha-default-normal.scss */
 .block-views-node-images-block-1,
 .block-views-node-images-block {
   float: left;
   width: 660px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000327}}
+/* line 23, ../scss/rubydesign-alpha-default-normal.scss */
 .right img {
   width: auto;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000332}}
+/* line 28, ../scss/rubydesign-alpha-default-normal.scss */
 #region-content .grid-half {
   margin-left: 0;
   margin-right: 20px;
@@ -129,13 +124,13 @@ h1 span {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000340}}
+/* line 36, ../scss/rubydesign-alpha-default-normal.scss */
 .left, .block-single-case-study-block-1, .block-views-testimonials-block,
 .view-case-studies {
   height: 378px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000346}}
+/* line 42, ../scss/rubydesign-alpha-default-normal.scss */
 .view-single-case-study .views-field-field-url a,
 .view-case-studies .views-field-field-url a,
 .views-field-view-node a {
@@ -143,34 +138,34 @@ h1 span {
   left: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000350}}
+/* line 46, ../scss/rubydesign-alpha-default-normal.scss */
 .views-field-view-node a {
   bottom: 60px;
   left: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000355}}
+/* line 51, ../scss/rubydesign-alpha-default-normal.scss */
 .views-field-field-preview {
   margin: 30px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000362}}
+/* line 58, ../scss/rubydesign-alpha-default-normal.scss */
 .view-portfolio .views-row {
   width: 320px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000365}}
+/* line 61, ../scss/rubydesign-alpha-default-normal.scss */
 .view-portfolio img {
   width: 290px;
   height: 178px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000371}}
+/* line 67, ../scss/rubydesign-alpha-default-normal.scss */
 .branding-data img {
   width: auto;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/malcolm\/Documents\/Dropbox\/Work\/Ruby\%20Design\/rubydesign\/scss\/rubydesign-alpha-default-normal\.scss}line{font-family:\0000376}}
+/* line 72, ../scss/rubydesign-alpha-default-normal.scss */
 .view-testimonials .views-field-body .field-content {
   font-size: 1.6em;
 }

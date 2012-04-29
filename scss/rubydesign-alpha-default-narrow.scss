@@ -18,7 +18,6 @@
 h1 {
   font-size: 2.9em;
   span {
-    padding-top: 32px;
     line-height: inherit;
     margin-bottom: 40px;
   }
@@ -196,12 +195,15 @@ div.tweets-pulled-listing a{
   .block-main {
     width: 45%;
     float: left;    
+    clear: none;
   }
   h1 {
     width: 55%;
     float: left;
     padding: 10px 0;
-    
+    span {
+      display: inline;
+      }
   }
   .zone-content .region-content {
     /*    margin: 20px 0;*/

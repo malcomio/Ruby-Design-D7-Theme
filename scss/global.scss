@@ -20,7 +20,13 @@ h1 {
   text-transform: uppercase;
   width: 100%;
   display: block;
+  span {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 }
+
 h2 {
   font-size: 1.6em;
 }
@@ -246,7 +252,7 @@ a, a:link, a:visited {
 .view-testimonials {
   .views-field-body {
     .field-content {
-    display: inline;
+      display: inline;
     }
     @include white20pt;
     
@@ -333,8 +339,9 @@ a, a:link, a:visited {
   height: 101px;
   float: left;
   @include invisible;
-  margin-right: 15px;
+  margin: -8px 15px 0 0;
   display: inline-block;
+  
 }
 
 /* modal form */
@@ -344,4 +351,4 @@ div.modal-forms-modal-content .modal-title {
 
 form {
   margin-bottom: 30px;
-  }
+}

@@ -8,8 +8,7 @@
     <h1 class="title" id="page-title"><?php if($webcheck):?>
       <a href="/contact" class="free-web-check">Free Web Check</a>
       <?php endif;?>
-      <span>
-    <?php 
+      <span><?php 
     if(isset($page_title)) {
       print $page_title; 
     }
