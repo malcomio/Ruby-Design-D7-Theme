@@ -2,15 +2,22 @@ jQuery(document).ready(function($){
   var windowWidth = $(window).width();
   
   if(windowWidth < 960) {
-    // hide twitter
-//    $('.block-block-1').addClass('element-invisible');
+    // resize the h1
+    $('h1#page-title').fitText();
   }
-  
-  $('ul.menu').mobileMenu({prependTo: '.zone-menu', combine: false, switchWidth: 500});
+
+  // convert menu lists to dropdowns
+  $('ul.menu').mobileMenu({
+    prependTo: '.zone-menu', 
+    combine: false, 
+    switchWidth: 500
+  });
 
   // move the secondary mobile menu 
   $('#mm1').prependTo('#zone-postscript-wrapper');
   
-  // resize the h1
-  $('h1#page-title').fitText();
+  // set the current page as the selected menu item
+  var path = $(location).attr('pathname');
+  $('.mnav option[value="' + path + '"]').attr('selected', 'selected');
+  
 });
