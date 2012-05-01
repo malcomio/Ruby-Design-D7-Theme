@@ -14,9 +14,20 @@
 .view-node-tags /* case study tags */ {
   display: block;
 }
-
+.free-web-check {
+  @include transparent-sprite(free);
+  width: 99px;
+  height: 101px;
+  float: left;
+  @include invisible;
+  margin: -8px 15px 0 0;
+  display: inline-block;
+}
 h1 {
   font-size: 2.9em;
+  padding-top: 12px;
+  margin-top: 10px;
+  
   span {
     line-height: inherit;
     margin-bottom: 40px;
@@ -25,12 +36,11 @@ h1 {
 
 .block-main {
   clear: left;
-  margin-top: 30px;
-  }
+}
 
 .divider {
   background: url(../images/dividerstripe.png) no-repeat;
-  height: 40px;
+  height: 32px;
 }
 
 .zone-branding .region-branding.grid-12 {
@@ -58,6 +68,7 @@ h1 {
 
 /* case study block */
 .block-single-case-study-block-1,
+.block-views-testimonials-block,
 .view-case-studies .left {
   @include leftside;  
 }
@@ -70,6 +81,8 @@ h1 {
   position: static;
 }
 
+
+
 .view-case-studies .views-field-field-url a {
   left: 160px;
 }
@@ -77,7 +90,7 @@ h1 {
   float: left;
   width: 420px;
   img {
-    width: 400px;
+    width: 420px;
     height: 232px;
   }
 }
@@ -149,7 +162,31 @@ div.tweets-pulled-listing a{
   }
 }
 
-/* portfolio */
+/* portfolio page*/
+.page-node-7 {
+  .block-main {
+    width: 45%;
+    float: left;    
+    clear: none;
+  }
+  h1 {
+    width: 55%;
+    float: left;
+    padding: 10px 0;
+    span {
+      display: inline;
+    }
+  }
+  .zone-content .region-content {
+    /*    margin: 20px 0;*/
+    padding: 20px 20px 0;
+  }
+  
+  .divider.bottom {
+    margin-top: 10px;
+  }
+}
+
 .view-portfolio {
   
   .views-row {
@@ -191,26 +228,7 @@ div.tweets-pulled-listing a{
   display: none;
 }
 
-.page-node-7 {
-  .block-main {
-    width: 45%;
-    float: left;    
-    clear: none;
-  }
-  h1 {
-    width: 55%;
-    float: left;
-    padding: 10px 0;
-    span {
-      display: inline;
-      }
-  }
-  .zone-content .region-content {
-    /*    margin: 20px 0;*/
-    padding: 20px 20px 0;
-  }
-}
-
+/* individual service portfolios */
 .page-portfolio-service {
   h1 {
     margin-left: 20px;
@@ -220,30 +238,43 @@ div.tweets-pulled-listing a{
     width: 100%;
   }
 }
+
 .view-service-portfolio {
   div {
     float: left;
-    clear: right;
   }
   .views-row {
     padding: 20px;
+    width: 50%;
+  }
+  .views-row-odd {
+    clear: left;
   }
   
   img {
-    margin: 0 20px 20px;
+    margin: 0 20px 20px 0;
   }
   
   .views-field-title {
     height: 40px;
-    width: 400px;
+    width: 100%;
     a {
       @include linkred;
-      width: 200px;
+      position: relative;
+      width: 100%;
     }   
   }
-  
-  .views-field-body { 
-    width:550px;
+}
+
+/* home page */
+.page-node-4 h1 {
+  margin-top: 30px;
+  .free-web-check {
+    margin-top: -14px;
+    margin-bottom: 10px;
+  }
+  span {
+    display: inline;
   }
 }
 
@@ -293,7 +324,7 @@ div.tweets-pulled-listing a{
 #browserdetect-browserform {
   .form-submit {
     clear: both;
-    }
+  }
   .form-type-textfield,
   .form-type-emailfield {
     float: left;
@@ -302,15 +333,15 @@ div.tweets-pulled-listing a{
     
     input {
       width: 100%;
-      }
+    }
   }
-    
+  
   fieldset {
     width: 50%;
     float: left;
     &#edit-window {
       clear: left;
-      }
+    }
     .form-item {
       width: 30%;
     }

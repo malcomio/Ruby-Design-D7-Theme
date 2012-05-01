@@ -14,9 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   line-height: 110%;
-  padding-top: 12px;
   font-weight: 400;
-  margin-top: 10px;
   text-transform: uppercase;
   width: 100%;
   display: block;
@@ -96,7 +94,7 @@ a, a:link, a:visited {
   font: 1.45em $sanserif;
 }
 
-.block-main-menu ul li.active-trail a {
+.block-main-menu ul li .active {
   color: $red;
   &:hover, &:active, &:focus {
     color: $hover;
@@ -244,17 +242,23 @@ a, a:link, a:visited {
     
     .design {
       color: #000;
-      
     }
   }
 }
 /* testimonials */
 .view-testimonials {
+  a {
+    color: #FFF;
+  }
+  
   .views-field-body {
+    margin-bottom: 10px;
     .field-content {
       display: inline;
+      font-family: $sanserif;
+      font-size: 1.2em;
+      line-height: 1.2em;      
     }
-    @include white20pt;
     
     &:before,
     &:after {
@@ -327,21 +331,10 @@ a, a:link, a:visited {
 .view-single-case-study .views-field-title a, 
 .view-case-studies .views-field-field-url a, 
 .views-field-view-node a, 
+.free-web-check,
 .block-block-1, /* twitter */
 .view-node-tags /* case study tags */ {
   display: none;
-}
-
-
-.free-web-check {
-  @include transparent-sprite(free);
-  width: 99px;
-  height: 101px;
-  float: left;
-  @include invisible;
-  margin: -8px 15px 0 0;
-  display: inline-block;
-  
 }
 
 /* modal form */
