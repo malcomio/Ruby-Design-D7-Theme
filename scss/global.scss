@@ -94,7 +94,8 @@ a, a:link, a:visited {
   font: 1.45em $sanserif;
 }
 
-.block-main-menu ul li .active {
+.block-main-menu ul li .active,
+.block-main-menu ul li.active-trail a {
   color: $red;
   &:hover, &:active, &:focus {
     color: $hover;
@@ -344,4 +345,8 @@ div.modal-forms-modal-content .modal-title {
 
 form {
   margin-bottom: 30px;
+}
+
+.views-field-field-preview p {
+  margin-bottom: 0;
 }
