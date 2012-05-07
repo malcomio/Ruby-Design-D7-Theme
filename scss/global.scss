@@ -350,3 +350,7 @@ form {
 .views-field-field-preview p {
   margin-bottom: 0;
 }
+
+tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
+  background-color: #FFF;
+  }
