@@ -203,6 +203,11 @@ div.tweets-pulled-listing a{
   }
   .views-field-title a {
     margin-left: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+        &:after {
+          top: 10px;
+        }
   }
   
   .views-slideshow-cycle-main-frame-row-item.views-row-0 {

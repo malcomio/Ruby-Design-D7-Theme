@@ -11,7 +11,7 @@
 }
 .zone-content.container-12 .grid-8 {
   width: 640px;
-  }
+}
 .right,
 .block-single-case-study-block,
 .view-case-studies .right {
@@ -64,6 +64,13 @@
   img {
     width: 290px;
     height: 178px;
+  }
+  .views-field-title a {
+    font-size: 1.6em;
+    font-weight: normal;
+    &:after {
+      top: 14px;
+    }
   }
 }
 
