@@ -44,6 +44,7 @@ $sanserif : Arial,sans-serif;
   display: block;
   top: 20px;
   font-size: 1.42em;
+  line-height: 1em;
   font-family: $serif;
   font-weight: 700;
   color: #FFF;
@@ -96,7 +97,7 @@ $sanserif : Arial,sans-serif;
 
 
 @mixin taxonomyTerms {
-  background-color: desaturate($red, 20%);
+  background-color: $red;
   display: block;
   width: 160px;
   height: 34px;

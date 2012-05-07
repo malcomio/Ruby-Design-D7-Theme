@@ -239,7 +239,10 @@ div.tweets-pulled-listing a{
   }
 }
 
-.view-service-portfolio {
+.view-service-portfolio > .view-header {
+  padding: 20px;
+}
+.view-service-portfolio > .view-content {
   div {
     float: left;
   }
