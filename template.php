@@ -6,15 +6,10 @@ define('CONTACT', 29);
 
 function rubydesign_alpha_preprocess_region(&$vars) {
 
-  if($vars['region'] == 'content') {
-    // get the nid
-    if(arg(0) == 'node' && is_numeric(arg(1))) {
-      $nid = arg(1);
-    }
-    else {
-      $nid = FALSE;
-    }
-    
+  if ($vars['region'] == 'content') {
+
+    $nid = rubydesign_elements_path();
+
     // don't show the web check link on specific nodes
     $no_webcheck_nodes = array(
 //      PORTFOLIO,
@@ -26,60 +21,73 @@ function rubydesign_alpha_preprocess_region(&$vars) {
     // replace the page title on specific nodes
     $slogan_nodes = array(
       HOMEPAGE,
-      PORTFOLIO, 
+      PORTFOLIO,
     );
 
     // do special stuff for portfolio page
-    if($nid == PORTFOLIO) {
+    if ($nid == PORTFOLIO) {
       $vars['page_title'] = 'Passionate About <span class="design">Design</span>';
     }
-    elseif(in_array($nid, $slogan_nodes)) {
+    elseif (in_array($nid, $slogan_nodes)) {
       $vars['page_title'] = variable_get('site_slogan', '');
     }
-    elseif(array_key_exists('title', $vars)) {
+    elseif (array_key_exists('title', $vars)) {
       $vars['page_title'] = $vars['title'];
     }
+    $divider_after_title = array(
+      'portfolio/service',
+    );
+    $vars['divider_after_title'] = $nid && in_array($nid, $divider_after_title);
   }
 }
 
 function rubydesign_alpha_preprocess_zone(&$vars) {
-  // get the node ID
-  if(arg(0) == 'node' && is_numeric(arg(1))) {
-    $nid = arg(1);
-  }
-  else
-    $nid = FALSE;
+
+  $nid = rubydesign_elements_path();
 
   // add the divider strip on certain pages
-  if($vars['zone'] == 'header') {
+  if ($vars['zone'] == 'header') {
 
-    $divider_top_nodes = array(
+    $divider_header_top = array(
       PORTFOLIO,
     );
 
-    $vars['divider_top'] = $nid && in_array($nid, $divider_top_nodes);
+    $vars['divider_top'] = $nid && in_array($nid, $divider_header_top);
 
-    $divider_header_bottom_nodes = array(
+    $divider_header_bottom = array(
       PORTFOLIO,
     );
 
-    $vars['divider_header_bottom'] = $nid && in_array($nid, $divider_header_bottom_nodes);
+    $vars['divider_header_bottom'] = $nid && in_array($nid, $divider_header_bottom);
   }
-  elseif($vars['zone'] == 'content') {
+  elseif ($vars['zone'] == 'content') {
 
-    $content_divider_top_nodes = array(
+    $divider_content_top = array(
 //      PORTFOLIO,
     );
-    $vars['content_divider_top'] = $nid && in_array($nid, $content_divider_top_nodes);
+    $vars['content_divider_top'] = $nid && in_array($nid, $divider_content_top);
 
-    $content_divider_bottom_nodes = array(
+    $divider_content_bottom = array(
 //      PORTFOLIO,
+      'portfolio/service',
     );
 
-    $vars['content_divider_bottom'] = $nid && in_array($nid, $content_divider_bottom_nodes);
+    $vars['content_divider_bottom'] = $nid && in_array($nid, $divider_content_bottom);
   }
 }
 
-function rubydesign_preprocess_views_view(&$vars) {
-//  dpm($vars);
+function rubydesign_elements_path() {
+  $views = array('portfolio');
+
+  // get the node ID
+  if ((arg(0) == 'node' && is_numeric(arg(1)))) {
+    $nid = arg(1);
+  }
+  elseif (in_array(arg(0), $views)) {
+    $nid = arg(0) . '/' . arg(1);
+  }
+  else {
+    $nid = FALSE;
+  }
+  return $nid;
 }
