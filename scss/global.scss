@@ -33,6 +33,10 @@ h3 {
   font-size: 1.3em;
 }
 
+ul {
+  list-style-position: inside;
+}
+
 a, a:link, a:visited {
   color: $red;
   text-decoration: none;
@@ -69,7 +73,6 @@ a, a:link, a:visited {
   margin-top: 20px;
   float: left;
 }
-
 
 /* menus */
 .block-main-menu {
@@ -351,6 +354,11 @@ form {
   margin-bottom: 0;
 }
 
+thead {
+  font-weight: bold;
+  background-color: #E5E5E5;
+}
+
 tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
-  background-color: #FFF;
-  }
+  background-color: inherit;
+}
