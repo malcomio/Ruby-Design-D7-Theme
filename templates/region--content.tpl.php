@@ -5,9 +5,7 @@
     <?php if ($title): ?>
       <?php if ($title_hidden): ?><div class="element-invisible"><?php endif; ?>
       <?php print render($title_prefix); ?>
-        <h1 class="title" id="page-title"><?php if ($webcheck): ?>
-            <a href="/contact" class="free-web-check">Free Web Check</a>
-          <?php endif; ?>
+        <h1 class="title" id="page-title"><?php print $webcheck;?>
           <span><?php
         if (isset($page_title)) {
           print $page_title;
