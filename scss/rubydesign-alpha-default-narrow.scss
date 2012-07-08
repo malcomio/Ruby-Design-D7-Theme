@@ -21,18 +21,20 @@
   height: 101px;
   float: left;
   @include invisible;
-  margin: -8px 15px 0 0;
-  display: inline-block;
+  margin: 0 15px 0 0;
+  display: table-cell;
 }
 
 h1 {
   font-size: 2.9em;
   padding-top: 12px;
   margin-top: 10px;
+  display: table;
   
   span {
+    display: table-cell;
+    vertical-align: middle;
     line-height: inherit;
-    margin-bottom: 40px;
   }
 }
 
@@ -127,6 +129,7 @@ div.tweets-pulled-listing a{
     width: 150px;
     height: 28px;
     @include invisible;
+    display: block;
     margin-bottom: 20px;
   }
 }
@@ -156,11 +159,16 @@ div.tweets-pulled-listing a{
   }
 }
 
-.block-contact-form-blocks {
-  
-  
-  .form-text, .form-textarea, .grippie {
+.block-contact-form-blocks {  
+  margin: 10px 0 0 20px;
+}
+
+.contact-form {
+    input[type="text"], .form-text, .form-textarea, .grippie {
     width: 260px;
+  }
+  .form-textarea {
+    height: 120px;
   }
 }
 
@@ -175,9 +183,6 @@ div.tweets-pulled-listing a{
     width: 55%;
     float: left;
     padding: 10px 0;
-    span {
-      display: inline;
-    }
   }
   .zone-content .region-content {
     /*    margin: 20px 0;*/
@@ -189,8 +194,7 @@ div.tweets-pulled-listing a{
   }
 }
 
-.view-portfolio {
-  
+.view-portfolio {  
   .views-row {
     float: left;
     width: 240px;
@@ -207,9 +211,9 @@ div.tweets-pulled-listing a{
     margin-left: 15px;
     font-size: 1.1em;
     font-weight: bold;
-        &:after {
-          top: 10px;
-        }
+    &:after {
+      top: 10px;
+    }
   }
   
   .views-slideshow-cycle-main-frame-row-item.views-row-0 {
@@ -269,7 +273,7 @@ div.tweets-pulled-listing a{
     height: 40px;
     width: 100%;
     a {
-      @include linkred;
+      @include linkgrey;
       position: relative;
       width: 100%;
     }   
@@ -279,46 +283,26 @@ div.tweets-pulled-listing a{
   }
 }
 
-/* home page */
-.page-node-4 h1 {
-  margin-top: 30px;
-  .free-web-check {
-    margin-top: -14px;
-    margin-bottom: 10px;
-  }
-  span {
-    display: inline;
-  }
-}
-
 .view-node-tags .views-field-name {
   @include taxonomyTerms;
   
   a {
     color: $dark_grey;
-    padding: 3px 5px 5px 30px;
-    height: 24px;
+    @include transparent-sprite(circlearrowsmall);
+    padding: 0 5px 3px 22px;
+    height: 16px;
+    background-repeat: no-repeat;
     display: block;
-  }
-  .Drupal {
-    @include transparent-sprite(drupal);
-  }
-  .Wordpress {
-    @include transparent-sprite(wordpress);
-  }
-  .Email-Marketing {
-    @include transparent-sprite(email);
-  }
-  .Print  {
-    @include transparent-sprite(print);
-  }
-  .Web {
-    @include transparent-sprite(web);  
+    
+    &:hover, &:active, &:focus {
+      color: $red;
+    }
   }
 }
 
 .region-sidebar-first {
-  padding: 10px 20px 10px;
+  padding: 12px 20px 10px;
+  margin-top: 10px;
   
   h2, h3, .status_date {
     margin-bottom: 0;

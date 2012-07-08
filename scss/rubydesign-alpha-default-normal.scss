@@ -23,6 +23,11 @@
   @include rightside;
 }
 
+h1 span {
+  max-width: 520px;
+  width: 100%;
+}
+  
 .right img {
   width: auto;
   height: auto;
@@ -30,12 +35,13 @@
 
 #region-content .grid-half {
   margin-left: 0;
-  margin-right: 20px;
+  margin-right: 30px;
   width: 290px;
   float: left;
 }
 
-.left,.block-single-case-study-block-1,.block-views-testimonials-block,
+.left,.block-single-case-study-block-1,
+.block-views-testimonials-block,
 .view-case-studies {
   height: 378px;
 }
@@ -80,7 +86,8 @@
 }
 
 .view-testimonials .views-field-body .field-content {
-  font-size: 1.6em;
+  font-size: 1.3em;
+  line-height: 1.8em;
 }
 
 .view-service-portfolio .views-field-field-preview {

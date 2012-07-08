@@ -5,12 +5,11 @@
 @include all-transparent-sprites;
 
 /* colours */
-$light_grey : #666;
+$mid_grey : #666;
 $dark_grey : #232323;
 $red : #BF0C2C;
+$red_bg : #A40303;
 $pale_grey : #E5E5E5;
-
-$hover : lighten($red, 20%);
 
 /* fonts */
 $serif : Georgia, serif;
@@ -18,7 +17,6 @@ $sanserif : Arial,sans-serif;
 
 @mixin invisible {
   text-indent: -9999px;
-  display: block;
 }
 
 @mixin leftside {
@@ -34,8 +32,8 @@ $sanserif : Arial,sans-serif;
 
 @mixin white20pt {
   font-family: $sanserif;
-  font-size: 1.2em;
-  line-height: 140%;
+  font-size: 1.4em;
+  line-height: 2em;
 }
 
 @mixin largeWhiteSerif {
@@ -60,8 +58,8 @@ $sanserif : Arial,sans-serif;
   }
 }
 
-@mixin linkafter {
-  @include transparent-sprite(view-link);
+@mixin linkafter($sprite) {
+  @include transparent-sprite($sprite);
   content: ' ';
   width: 27px;
   height: 27px;
@@ -77,8 +75,8 @@ $sanserif : Arial,sans-serif;
   width: 24px;  
 }
 
-@mixin linkred {
-  background: $red;
+@mixin linkstrip($colour) {
+  background: $colour;
   display: block;
   padding: 8px 27px 5px 5px;
   font-family: $sanserif;
@@ -90,19 +88,25 @@ $sanserif : Arial,sans-serif;
   color: #FFF;
   text-transform: uppercase;  
   z-index: 999;
-  &:after {
-    @include linkafter;
-  }
 }
 
+@mixin linkred {
+  @include linkstrip($red_bg);
+  &:after {
+    @include linkafter(view-link);
+  }      
+}
+
+@mixin linkgrey {
+  @include linkstrip($mid_grey);
+  &:after {
+    @include linkafter(view-linkgrey);
+  }  
+}
 
 @mixin taxonomyTerms {
-  background-color: $red;
   display: block;
-  width: 160px;
   height: 34px;
-  margin: 0 0 10px;
   padding: 5px 7px;
-  border-radius: 5px;
-  font-weight: bold;
+  border-bottom: 1px solid #666666;
 }

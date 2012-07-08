@@ -22,15 +22,18 @@ h1 {
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 10px;
+    width: 100%;
   }
 }
 
 h2 {
   font-size: 1.6em;
+  margin-bottom: 5px;
 }
 
 h3 {
   font-size: 1.3em;
+  margin-bottom: 5px;
 }
 
 ul {
@@ -41,17 +44,17 @@ a, a:link, a:visited {
   color: $red;
   text-decoration: none;
   &:hover, &:active, &:focus {
-    color: $hover;
+    color: $mid_grey;
   }
 }
 
-#zone-header-wrapper {
-  background: $light_grey;
+.zone-header-wrapper {
+  background: $mid_grey;
 }
-#zone-branding {
+.zone-branding {
   background: #FFF;
 }
-#zone-header {
+.zone-header {
   background: $dark_grey;
 }
 
@@ -59,12 +62,32 @@ a, a:link, a:visited {
   background: #FFF;
 }
 
+.tabtext {
+  width: 4em;
+  display: inline-block;
+}
 
 #region-sidebar-first, #region-header-first {
   margin-left: 0;
   margin-right: 0;
 }
 
+.zone-postscript {
+  background: $mid_grey;
+  .region-postscript-first {
+    padding: 5px;
+    a, a:link, a:visited {
+      color: #FFF;
+      &:hover, &:active, &:focus {
+        color: $red;
+      }
+    }
+  }
+}
+
+.block-system-main {
+/*  margin-right: 20px;*/
+}
 .node-page {
   background: #FFF;
 }
@@ -101,7 +124,7 @@ a, a:link, a:visited {
 .block-main-menu ul li.active-trail a {
   color: $red;
   &:hover, &:active, &:focus {
-    color: $hover;
+    color: $mid_grey;
   }
 }
 
@@ -109,13 +132,12 @@ a, a:link, a:visited {
   float: right;
 }
 #block-menu-menu-secondary-navigation a {
-  color: #000;
   
   &.active-trail {
     color: $red;  
   }
   &:hover, &:active, &:focus {
-    color: $hover;
+    color: $red;
   }  
 }
 
@@ -148,7 +170,6 @@ a, a:link, a:visited {
     color: #fff;
   }  
 }
-
 
 .right img {
   width: 320px;
@@ -210,6 +231,7 @@ a, a:link, a:visited {
   width: 13px;
   height: 24px;
   @include invisible;
+  display: block;
   position: absolute;
   top: 83px;
   z-index: 99;
@@ -231,28 +253,21 @@ a, a:link, a:visited {
   }
   
   .zone-content .region-content {
-    /*    margin: 20px 0;*/
     padding: 10px 0;
     width: 100%;
   }
   
-  h1 {
-    margin: 0;
-    padding: 0;
-    
-    span {
-      padding-top: 0;
-    }
-    
-    .design {
+  h1 .design {
       color: #000;
     }
-  }
 }
 /* testimonials */
 .view-testimonials {
   a {
     color: #FFF;
+    &:hover, &:active, &:focus {
+      color: $red;
+    }
   }
   
   .views-field-body {
@@ -261,7 +276,8 @@ a, a:link, a:visited {
       display: inline;
       font-family: $sanserif;
       font-size: 1.2em;
-      line-height: 1.2em;      
+      line-height: 1.2em;    
+      margin: 0px 5px;
     }
     
     &:before,
@@ -273,10 +289,12 @@ a, a:link, a:visited {
     }
     &:before {
       @include transparent-sprite(quote-before);
+      margin-right: 5px;
     }
     &:after {
       @include transparent-sprite(quote-after);
       vertical-align: bottom;
+      margin-left: 5px;
     }
   }
 }
@@ -312,6 +330,7 @@ a, a:link, a:visited {
   }
   .social {
     @include invisible;
+    display: block;
     margin-bottom: 20px;    
     width: 24px;
     height: 24px;
@@ -342,8 +361,13 @@ a, a:link, a:visited {
 }
 
 /* modal form */
-div.modal-forms-modal-content .modal-title {
-  color: $red;
+div.modal-forms-modal-content  {
+  .popups-title {
+    padding-top: 20px;
+  }
+  .modal-title {
+    color: $red;
+  }
 }
 
 form {
@@ -361,4 +385,17 @@ thead {
 
 tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
   background-color: inherit;
+}
+
+/* service portfolio */
+.view-service-portfolio > .view-content {
+  .views-field-title {
+    height: 40px;
+    width: 100%;
+    a {
+      @include linkgrey;
+      position: relative;
+      width: 100%;
+    }   
+  }
 }
