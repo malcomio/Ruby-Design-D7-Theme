@@ -51,9 +51,11 @@ a, a:link, a:visited {
 .zone-header-wrapper {
   background: $mid_grey;
 }
+
 .zone-branding {
   background: #FFF;
 }
+
 .zone-header {
   background: $dark_grey;
 }
@@ -383,6 +385,10 @@ thead {
   background-color: #E5E5E5;
 }
 
+tfoot {
+  border-top: 1px solid #CCC;
+}
+
 tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
   background-color: inherit;
 }
@@ -399,3 +405,4 @@ tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
     }   
   }
 }
+
