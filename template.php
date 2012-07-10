@@ -48,6 +48,13 @@ function rubydesign_alpha_preprocess_region(&$vars) {
   }
 }
 
+function rubydesign_alpha_process_region(&$vars) {
+  if($vars['region'] == 'branding') {
+    $vars['logo_img'] = $vars['logo'] ? '<img src="' . $vars['logo'] . '" alt="' . check_plain($vars['site_name']) . '" id="logo" width="168" height="93"/>' : '';
+    $vars['linked_logo_img'] = $vars['logo'] ? l($vars['logo_img'], '<front>', array('attributes' => array('rel' => 'home', 'title' => check_plain($vars['site_name'])), 'html' => TRUE)) : '';
+  }
+}
+
 function rubydesign_alpha_preprocess_zone(&$vars) {
 
   $nid = rubydesign_elements_path();
