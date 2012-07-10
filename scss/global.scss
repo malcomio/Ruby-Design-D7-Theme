@@ -362,6 +362,19 @@ a, a:link, a:visited {
   display: none;
 }
 
+form {
+  margin-bottom: 30px;
+}
+
+.contact-form {
+    input[type="text"], .form-text, .form-textarea, .grippie {
+    width: 260px;
+  }
+  .form-textarea {
+    height: 120px;
+  }
+}
+
 /* modal form */
 div.modal-forms-modal-content  {
   .popups-title {
@@ -370,10 +383,16 @@ div.modal-forms-modal-content  {
   .modal-title {
     color: $red;
   }
+  div.messages {
+    padding: 10px 10px 10px 35px;
+  }
+  form {
+    margin-bottom: 0;
+  }
 }
-
-form {
-  margin-bottom: 30px;
+.modal-scroll, 
+.modal-content {
+  overflow: visible;
 }
 
 .views-field-field-preview p {
