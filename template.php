@@ -19,7 +19,7 @@ function rubydesign_alpha_preprocess_region(&$vars) {
     );
     
     if($nid && !in_array($nid, $no_webcheck_nodes)) {
-      $vars['webcheck'] = ctools_modal_text_button(t('Contact Us'), 'modal_forms/nojs/contact', t('Contact Us'),  'ctools-modal-modal-popup-small free-web-check');
+      $vars['webcheck'] = ctools_modal_text_button(t('Contact Us'), 'modalcontact/nojs/contact', t('Contact Us'),  'ctools-modal-modal-popup free-web-check');
     }
     else {
       $vars['webcheck'] = '';
