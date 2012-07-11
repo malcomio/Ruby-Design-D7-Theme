@@ -388,6 +388,12 @@ div.modal-forms-modal-content  {
   }
   form {
     margin-bottom: 0;
+    
+    .ajax-progress,
+    .form-submit {
+      display: block;
+      float: left;
+    }
   }
 }
 .modal-scroll, 
