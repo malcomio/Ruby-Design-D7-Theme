@@ -17,7 +17,7 @@
       <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
     </div>
     <!--[if lt IE 8]>
-    <div class="ie7-message">
+    <div class="messages error">
       <h2>You are using an out-of-date-browser</h2>
       <p>You will notice that our site might look a little odd in places. This is because you're using an unsupported browser.</p>
       <p>For more information on what this means, please visit <a href="http://browsingbetter.com">http://browsingbetter.com</a></p>
