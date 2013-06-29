@@ -208,7 +208,7 @@ div.tweets-pulled-listing a{
       top: 10px;
     }
   }
-  
+
   .views-slideshow-cycle-main-frame-row-item.views-row-0 {
     .views-field-field-image-portfolio {
       margin-left: 30px;
@@ -246,6 +246,7 @@ div.tweets-pulled-listing a{
 .view-service-portfolio > .view-header {
   padding: 20px 20px 0;
 }
+
 .view-service-portfolio > .view-content {
   div {
     float: left;
@@ -273,6 +274,11 @@ div.tweets-pulled-listing a{
   }
   .views-field-field-preview {
     margin-top: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    p {
+      margin-bottom: 1em;
+    }
   }
 }
 
@@ -313,8 +319,9 @@ div.tweets-pulled-listing a{
 /* form fields */
 #browserdetect-browserform {
   .form-submit {
-    clear: both;
+    margin: 20px 100% 0 0;
   }
+
   .form-type-textfield,
   .form-type-emailfield {
     float: left;
